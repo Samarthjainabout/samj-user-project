@@ -1,0 +1,3813 @@
+*SPEF "ieee 1481-1999"
+*DESIGN "user_project_wrapper"
+*DATE "11:11:11 Fri 11 11, 1111"
+*VENDOR "OpenRCX"
+*PROGRAM "Parallel Extraction"
+*VERSION "1.0"
+*DESIGN_FLOW "NAME_SCOPE LOCAL" "PIN_CAP NONE"
+*DIVIDER /
+*DELIMITER :
+*BUS_DELIMITER []
+*T_UNIT 1 NS
+*C_UNIT 1 PF
+*R_UNIT 1 OHM
+*L_UNIT 1 HENRY
+
+*NAME_MAP
+*1 la_data_in[0]
+*2 la_data_in[100]
+*3 la_data_in[101]
+*4 la_data_in[102]
+*5 la_data_in[103]
+*6 la_data_in[104]
+*7 la_data_in[105]
+*8 la_data_in[106]
+*9 la_data_in[107]
+*10 la_data_in[108]
+*11 la_data_in[109]
+*12 la_data_in[10]
+*13 la_data_in[110]
+*14 la_data_in[111]
+*15 la_data_in[112]
+*16 la_data_in[113]
+*17 la_data_in[114]
+*18 la_data_in[115]
+*19 la_data_in[116]
+*20 la_data_in[117]
+*21 la_data_in[118]
+*22 la_data_in[119]
+*23 la_data_in[11]
+*24 la_data_in[120]
+*25 la_data_in[121]
+*26 la_data_in[122]
+*27 la_data_in[123]
+*28 la_data_in[124]
+*29 la_data_in[125]
+*30 la_data_in[126]
+*31 la_data_in[127]
+*32 la_data_in[12]
+*33 la_data_in[13]
+*34 la_data_in[14]
+*35 la_data_in[15]
+*36 la_data_in[16]
+*37 la_data_in[17]
+*38 la_data_in[18]
+*39 la_data_in[19]
+*40 la_data_in[1]
+*41 la_data_in[20]
+*42 la_data_in[21]
+*43 la_data_in[22]
+*44 la_data_in[23]
+*45 la_data_in[24]
+*46 la_data_in[25]
+*47 la_data_in[26]
+*48 la_data_in[27]
+*49 la_data_in[28]
+*50 la_data_in[29]
+*51 la_data_in[2]
+*52 la_data_in[30]
+*53 la_data_in[31]
+*54 la_data_in[32]
+*55 la_data_in[33]
+*56 la_data_in[34]
+*57 la_data_in[35]
+*58 la_data_in[36]
+*59 la_data_in[37]
+*60 la_data_in[38]
+*61 la_data_in[39]
+*62 la_data_in[3]
+*63 la_data_in[40]
+*64 la_data_in[41]
+*65 la_data_in[42]
+*66 la_data_in[43]
+*67 la_data_in[44]
+*68 la_data_in[45]
+*69 la_data_in[46]
+*70 la_data_in[47]
+*71 la_data_in[48]
+*72 la_data_in[49]
+*73 la_data_in[4]
+*74 la_data_in[50]
+*75 la_data_in[51]
+*76 la_data_in[52]
+*77 la_data_in[53]
+*78 la_data_in[54]
+*79 la_data_in[55]
+*80 la_data_in[56]
+*81 la_data_in[57]
+*82 la_data_in[58]
+*83 la_data_in[59]
+*84 la_data_in[5]
+*85 la_data_in[60]
+*86 la_data_in[61]
+*87 la_data_in[62]
+*88 la_data_in[63]
+*89 la_data_in[64]
+*90 la_data_in[65]
+*91 la_data_in[66]
+*92 la_data_in[67]
+*93 la_data_in[68]
+*94 la_data_in[69]
+*95 la_data_in[6]
+*96 la_data_in[70]
+*97 la_data_in[71]
+*98 la_data_in[72]
+*99 la_data_in[73]
+*100 la_data_in[74]
+*101 la_data_in[75]
+*102 la_data_in[76]
+*103 la_data_in[77]
+*104 la_data_in[78]
+*105 la_data_in[79]
+*106 la_data_in[7]
+*107 la_data_in[80]
+*108 la_data_in[81]
+*109 la_data_in[82]
+*110 la_data_in[83]
+*111 la_data_in[84]
+*112 la_data_in[85]
+*113 la_data_in[86]
+*114 la_data_in[87]
+*115 la_data_in[88]
+*116 la_data_in[89]
+*117 la_data_in[8]
+*118 la_data_in[90]
+*119 la_data_in[91]
+*120 la_data_in[92]
+*121 la_data_in[93]
+*122 la_data_in[94]
+*123 la_data_in[95]
+*124 la_data_in[96]
+*125 la_data_in[97]
+*126 la_data_in[98]
+*127 la_data_in[99]
+*128 la_data_in[9]
+*129 la_data_out[0]
+*130 la_data_out[100]
+*131 la_data_out[101]
+*132 la_data_out[102]
+*133 la_data_out[103]
+*134 la_data_out[104]
+*135 la_data_out[105]
+*136 la_data_out[106]
+*137 la_data_out[107]
+*138 la_data_out[108]
+*139 la_data_out[109]
+*140 la_data_out[10]
+*141 la_data_out[110]
+*142 la_data_out[111]
+*143 la_data_out[112]
+*144 la_data_out[113]
+*145 la_data_out[114]
+*146 la_data_out[115]
+*147 la_data_out[116]
+*148 la_data_out[117]
+*149 la_data_out[118]
+*150 la_data_out[119]
+*151 la_data_out[11]
+*152 la_data_out[120]
+*153 la_data_out[121]
+*154 la_data_out[122]
+*155 la_data_out[123]
+*156 la_data_out[124]
+*157 la_data_out[125]
+*158 la_data_out[126]
+*159 la_data_out[127]
+*160 la_data_out[12]
+*161 la_data_out[13]
+*162 la_data_out[14]
+*163 la_data_out[15]
+*164 la_data_out[16]
+*165 la_data_out[17]
+*166 la_data_out[18]
+*167 la_data_out[19]
+*168 la_data_out[1]
+*169 la_data_out[20]
+*170 la_data_out[21]
+*171 la_data_out[22]
+*172 la_data_out[23]
+*173 la_data_out[24]
+*174 la_data_out[25]
+*175 la_data_out[26]
+*176 la_data_out[27]
+*177 la_data_out[28]
+*178 la_data_out[29]
+*179 la_data_out[2]
+*180 la_data_out[30]
+*181 la_data_out[31]
+*182 la_data_out[32]
+*183 la_data_out[33]
+*184 la_data_out[34]
+*185 la_data_out[35]
+*186 la_data_out[36]
+*187 la_data_out[37]
+*188 la_data_out[38]
+*189 la_data_out[39]
+*190 la_data_out[3]
+*191 la_data_out[40]
+*192 la_data_out[41]
+*193 la_data_out[42]
+*194 la_data_out[43]
+*195 la_data_out[44]
+*196 la_data_out[45]
+*197 la_data_out[46]
+*198 la_data_out[47]
+*199 la_data_out[48]
+*200 la_data_out[49]
+*201 la_data_out[4]
+*202 la_data_out[50]
+*203 la_data_out[51]
+*204 la_data_out[52]
+*205 la_data_out[53]
+*206 la_data_out[54]
+*207 la_data_out[55]
+*208 la_data_out[56]
+*209 la_data_out[57]
+*210 la_data_out[58]
+*211 la_data_out[59]
+*212 la_data_out[5]
+*213 la_data_out[60]
+*214 la_data_out[61]
+*215 la_data_out[62]
+*216 la_data_out[63]
+*217 la_data_out[64]
+*218 la_data_out[65]
+*219 la_data_out[66]
+*220 la_data_out[67]
+*221 la_data_out[68]
+*222 la_data_out[69]
+*223 la_data_out[6]
+*224 la_data_out[70]
+*225 la_data_out[71]
+*226 la_data_out[72]
+*227 la_data_out[73]
+*228 la_data_out[74]
+*229 la_data_out[75]
+*230 la_data_out[76]
+*231 la_data_out[77]
+*232 la_data_out[78]
+*233 la_data_out[79]
+*234 la_data_out[7]
+*235 la_data_out[80]
+*236 la_data_out[81]
+*237 la_data_out[82]
+*238 la_data_out[83]
+*239 la_data_out[84]
+*240 la_data_out[85]
+*241 la_data_out[86]
+*242 la_data_out[87]
+*243 la_data_out[88]
+*244 la_data_out[89]
+*245 la_data_out[8]
+*246 la_data_out[90]
+*247 la_data_out[91]
+*248 la_data_out[92]
+*249 la_data_out[93]
+*250 la_data_out[94]
+*251 la_data_out[95]
+*252 la_data_out[96]
+*253 la_data_out[97]
+*254 la_data_out[98]
+*255 la_data_out[99]
+*256 la_data_out[9]
+*265 wb_clk_i
+*266 wb_rst_i
+*267 mprj
+
+*PORTS
+la_data_in[0] I
+la_data_in[100] I
+la_data_in[101] I
+la_data_in[102] I
+la_data_in[103] I
+la_data_in[104] I
+la_data_in[105] I
+la_data_in[106] I
+la_data_in[107] I
+la_data_in[108] I
+la_data_in[109] I
+la_data_in[10] I
+la_data_in[110] I
+la_data_in[111] I
+la_data_in[112] I
+la_data_in[113] I
+la_data_in[114] I
+la_data_in[115] I
+la_data_in[116] I
+la_data_in[117] I
+la_data_in[118] I
+la_data_in[119] I
+la_data_in[11] I
+la_data_in[120] I
+la_data_in[121] I
+la_data_in[122] I
+la_data_in[123] I
+la_data_in[124] I
+la_data_in[125] I
+la_data_in[126] I
+la_data_in[127] I
+la_data_in[12] I
+la_data_in[13] I
+la_data_in[14] I
+la_data_in[15] I
+la_data_in[16] I
+la_data_in[17] I
+la_data_in[18] I
+la_data_in[19] I
+la_data_in[1] I
+la_data_in[20] I
+la_data_in[21] I
+la_data_in[22] I
+la_data_in[23] I
+la_data_in[24] I
+la_data_in[25] I
+la_data_in[26] I
+la_data_in[27] I
+la_data_in[28] I
+la_data_in[29] I
+la_data_in[2] I
+la_data_in[30] I
+la_data_in[31] I
+la_data_in[32] I
+la_data_in[33] I
+la_data_in[34] I
+la_data_in[35] I
+la_data_in[36] I
+la_data_in[37] I
+la_data_in[38] I
+la_data_in[39] I
+la_data_in[3] I
+la_data_in[40] I
+la_data_in[41] I
+la_data_in[42] I
+la_data_in[43] I
+la_data_in[44] I
+la_data_in[45] I
+la_data_in[46] I
+la_data_in[47] I
+la_data_in[48] I
+la_data_in[49] I
+la_data_in[4] I
+la_data_in[50] I
+la_data_in[51] I
+la_data_in[52] I
+la_data_in[53] I
+la_data_in[54] I
+la_data_in[55] I
+la_data_in[56] I
+la_data_in[57] I
+la_data_in[58] I
+la_data_in[59] I
+la_data_in[5] I
+la_data_in[60] I
+la_data_in[61] I
+la_data_in[62] I
+la_data_in[63] I
+la_data_in[64] I
+la_data_in[65] I
+la_data_in[66] I
+la_data_in[67] I
+la_data_in[68] I
+la_data_in[69] I
+la_data_in[6] I
+la_data_in[70] I
+la_data_in[71] I
+la_data_in[72] I
+la_data_in[73] I
+la_data_in[74] I
+la_data_in[75] I
+la_data_in[76] I
+la_data_in[77] I
+la_data_in[78] I
+la_data_in[79] I
+la_data_in[7] I
+la_data_in[80] I
+la_data_in[81] I
+la_data_in[82] I
+la_data_in[83] I
+la_data_in[84] I
+la_data_in[85] I
+la_data_in[86] I
+la_data_in[87] I
+la_data_in[88] I
+la_data_in[89] I
+la_data_in[8] I
+la_data_in[90] I
+la_data_in[91] I
+la_data_in[92] I
+la_data_in[93] I
+la_data_in[94] I
+la_data_in[95] I
+la_data_in[96] I
+la_data_in[97] I
+la_data_in[98] I
+la_data_in[99] I
+la_data_in[9] I
+la_data_out[0] O
+la_data_out[100] O
+la_data_out[101] O
+la_data_out[102] O
+la_data_out[103] O
+la_data_out[104] O
+la_data_out[105] O
+la_data_out[106] O
+la_data_out[107] O
+la_data_out[108] O
+la_data_out[109] O
+la_data_out[10] O
+la_data_out[110] O
+la_data_out[111] O
+la_data_out[112] O
+la_data_out[113] O
+la_data_out[114] O
+la_data_out[115] O
+la_data_out[116] O
+la_data_out[117] O
+la_data_out[118] O
+la_data_out[119] O
+la_data_out[11] O
+la_data_out[120] O
+la_data_out[121] O
+la_data_out[122] O
+la_data_out[123] O
+la_data_out[124] O
+la_data_out[125] O
+la_data_out[126] O
+la_data_out[127] O
+la_data_out[12] O
+la_data_out[13] O
+la_data_out[14] O
+la_data_out[15] O
+la_data_out[16] O
+la_data_out[17] O
+la_data_out[18] O
+la_data_out[19] O
+la_data_out[1] O
+la_data_out[20] O
+la_data_out[21] O
+la_data_out[22] O
+la_data_out[23] O
+la_data_out[24] O
+la_data_out[25] O
+la_data_out[26] O
+la_data_out[27] O
+la_data_out[28] O
+la_data_out[29] O
+la_data_out[2] O
+la_data_out[30] O
+la_data_out[31] O
+la_data_out[32] O
+la_data_out[33] O
+la_data_out[34] O
+la_data_out[35] O
+la_data_out[36] O
+la_data_out[37] O
+la_data_out[38] O
+la_data_out[39] O
+la_data_out[3] O
+la_data_out[40] O
+la_data_out[41] O
+la_data_out[42] O
+la_data_out[43] O
+la_data_out[44] O
+la_data_out[45] O
+la_data_out[46] O
+la_data_out[47] O
+la_data_out[48] O
+la_data_out[49] O
+la_data_out[4] O
+la_data_out[50] O
+la_data_out[51] O
+la_data_out[52] O
+la_data_out[53] O
+la_data_out[54] O
+la_data_out[55] O
+la_data_out[56] O
+la_data_out[57] O
+la_data_out[58] O
+la_data_out[59] O
+la_data_out[5] O
+la_data_out[60] O
+la_data_out[61] O
+la_data_out[62] O
+la_data_out[63] O
+la_data_out[64] O
+la_data_out[65] O
+la_data_out[66] O
+la_data_out[67] O
+la_data_out[68] O
+la_data_out[69] O
+la_data_out[6] O
+la_data_out[70] O
+la_data_out[71] O
+la_data_out[72] O
+la_data_out[73] O
+la_data_out[74] O
+la_data_out[75] O
+la_data_out[76] O
+la_data_out[77] O
+la_data_out[78] O
+la_data_out[79] O
+la_data_out[7] O
+la_data_out[80] O
+la_data_out[81] O
+la_data_out[82] O
+la_data_out[83] O
+la_data_out[84] O
+la_data_out[85] O
+la_data_out[86] O
+la_data_out[87] O
+la_data_out[88] O
+la_data_out[89] O
+la_data_out[8] O
+la_data_out[90] O
+la_data_out[91] O
+la_data_out[92] O
+la_data_out[93] O
+la_data_out[94] O
+la_data_out[95] O
+la_data_out[96] O
+la_data_out[97] O
+la_data_out[98] O
+la_data_out[99] O
+la_data_out[9] O
+wb_clk_i I
+wb_rst_i I
+
+*D_NET *1 0.0653221
+*CONN
+*P la_data_in[0] I
+*I *267:la_data_in I *D user_proj_example
+*CAP
+1 la_data_in[0] 0.000598024
+2 *267:la_data_in 6.24221e-05
+3 *1:9 0.0169103
+4 *1:7 0.0174459
+5 *1:7 *172:17 0
+6 *1:9 *129:6 0.00420846
+7 *1:9 *140:17 0
+8 *1:9 *151:17 0
+9 *1:9 *160:11 0
+10 *1:9 *161:11 0.000395239
+11 *1:9 *162:11 0.000533975
+12 *1:9 *163:11 0.000802643
+13 *1:9 *164:11 0.00113929
+14 *1:9 *165:11 0.0111657
+15 *1:9 *167:19 0.00416073
+16 *1:9 *256:6 0.00789938
+*RES
+1 la_data_in[0] *1:7 9.7325 
+2 *1:7 *1:9 65.0345 
+3 *1:9 *267:la_data_in 1.5725 
+*END
+
+*D_NET *129 0.0881681
+*CONN
+*P la_data_out[0] O
+*I *267:la_data_out[0] O *D user_proj_example
+*CAP
+1 la_data_out[0] 0.000727433
+2 *267:la_data_out[0] 0
+3 *129:6 0.011183
+4 *129:4 0.0104555
+5 la_data_out[0] *170:17 0
+6 *129:6 *190:6 0.036051
+7 *129:6 *256:6 0.0255427
+8 *1:9 *129:6 0.00420846
+*RES
+1 *267:la_data_out[0] *129:4 0.5 
+2 *129:4 *129:6 63.0534 
+3 *129:6 la_data_out[0] 11.7725 
+*END
+
+*D_NET *130 0.0239268
+*CONN
+*P la_data_out[100] O
+*I *267:la_data_out[100] O *D user_proj_example
+*CAP
+1 la_data_out[100] 0.00484715
+2 *267:la_data_out[100] 0.00484715
+3 la_data_out[100] la_data_out[104] 3.99277e-06
+4 la_data_out[100] la_data_out[105] 0.0016153
+5 la_data_out[100] la_data_out[107] 0.000281
+6 la_data_out[100] la_data_out[94] 0.00342427
+7 la_data_out[100] *255:17 0.00890791
+*RES
+1 *267:la_data_out[100] la_data_out[100] 33.6552 
+*END
+
+*D_NET *131 0.0296673
+*CONN
+*P la_data_out[101] O
+*I *267:la_data_out[101] O *D user_proj_example
+*CAP
+1 la_data_out[101] 0.00302774
+2 *267:la_data_out[101] 0.00302774
+3 la_data_out[101] la_data_out[102] 0.010919
+4 la_data_out[101] la_data_out[103] 0.000454803
+5 la_data_out[101] la_data_out[106] 0.00381697
+6 la_data_out[101] la_data_out[93] 0.000291771
+7 la_data_out[101] la_data_out[98] 0.00812929
+*RES
+1 *267:la_data_out[101] la_data_out[101] 33.3074 
+*END
+
+*D_NET *132 0.023959
+*CONN
+*P la_data_out[102] O
+*I *267:la_data_out[102] O *D user_proj_example
+*CAP
+1 la_data_out[102] 0.00535219
+2 *267:la_data_out[102] 0.00535219
+3 la_data_out[102] la_data_out[106] 0.00100048
+4 la_data_out[102] la_data_out[94] 0
+5 la_data_out[102] la_data_out[97] 0.00133512
+6 la_data_out[101] la_data_out[102] 0.010919
+*RES
+1 *267:la_data_out[102] la_data_out[102] 33.0691 
+*END
+
+*D_NET *133 0.0307246
+*CONN
+*P la_data_out[103] O
+*I *267:la_data_out[103] O *D user_proj_example
+*CAP
+1 la_data_out[103] 0.00250064
+2 *267:la_data_out[103] 0.00250064
+3 la_data_out[103] la_data_out[104] 0.0106125
+4 la_data_out[103] la_data_out[106] 0.00707595
+5 la_data_out[103] la_data_out[95] 0
+6 la_data_out[103] la_data_out[96] 0.00169747
+7 la_data_out[103] la_data_out[98] 0.0045651
+8 la_data_out[103] la_data_out[99] 0.00123531
+9 la_data_out[103] *253:17 5.16945e-05
+10 la_data_out[103] *255:17 3.04209e-05
+11 la_data_out[101] la_data_out[103] 0.000454803
+*RES
+1 *267:la_data_out[103] la_data_out[103] 31.4012 
+*END
+
+*D_NET *134 0.027528
+*CONN
+*P la_data_out[104] O
+*I *267:la_data_out[104] O *D user_proj_example
+*CAP
+1 la_data_out[104] 0.00250159
+2 *267:la_data_out[104] 0.00250159
+3 la_data_out[104] la_data_out[105] 0.0103112
+4 la_data_out[104] la_data_out[106] 0.000856613
+5 la_data_out[104] la_data_out[96] 2.99518e-06
+6 la_data_out[104] *255:17 0.000737473
+7 la_data_out[100] la_data_out[104] 3.99277e-06
+8 la_data_out[103] la_data_out[104] 0.0106125
+*RES
+1 *267:la_data_out[104] la_data_out[104] 29.7951 
+*END
+
+*D_NET *135 0.025535
+*CONN
+*P la_data_out[105] O
+*I *267:la_data_out[105] O *D user_proj_example
+*CAP
+1 la_data_out[105] 0.00257392
+2 *267:la_data_out[105] 0.00257392
+3 la_data_out[105] la_data_out[106] 0.000268271
+4 la_data_out[105] la_data_out[107] 0.00102418
+5 la_data_out[105] la_data_out[108] 0.00624658
+6 la_data_out[105] la_data_out[111] 0.000822105
+7 la_data_out[105] *255:17 9.9514e-05
+8 la_data_out[100] la_data_out[105] 0.0016153
+9 la_data_out[104] la_data_out[105] 0.0103112
+*RES
+1 *267:la_data_out[105] la_data_out[105] 29.1472 
+*END
+
+*D_NET *136 0.0258268
+*CONN
+*P la_data_out[106] O
+*I *267:la_data_out[106] O *D user_proj_example
+*CAP
+1 la_data_out[106] 0.00264939
+2 *267:la_data_out[106] 0.00264939
+3 la_data_out[106] la_data_out[109] 0.00606051
+4 la_data_out[106] la_data_out[111] 0.00144924
+5 la_data_out[101] la_data_out[106] 0.00381697
+6 la_data_out[102] la_data_out[106] 0.00100048
+7 la_data_out[103] la_data_out[106] 0.00707595
+8 la_data_out[104] la_data_out[106] 0.000856613
+9 la_data_out[105] la_data_out[106] 0.000268271
+*RES
+1 *267:la_data_out[106] la_data_out[106] 29.4992 
+*END
+
+*D_NET *137 0.0197866
+*CONN
+*P la_data_out[107] O
+*I *267:la_data_out[107] O *D user_proj_example
+*CAP
+1 la_data_out[107] 0.0045973
+2 *267:la_data_out[107] 0.0045973
+3 la_data_out[107] la_data_out[108] 0.00928681
+4 la_data_out[107] la_data_out[112] 0
+5 la_data_out[107] la_data_out[113] 0
+6 la_data_out[100] la_data_out[107] 0.000281
+7 la_data_out[105] la_data_out[107] 0.00102418
+*RES
+1 *267:la_data_out[107] la_data_out[107] 29.0284 
+*END
+
+*D_NET *138 0.0236152
+*CONN
+*P la_data_out[108] O
+*I *267:la_data_out[108] O *D user_proj_example
+*CAP
+1 la_data_out[108] 0.00268184
+2 *267:la_data_out[108] 0.00268184
+3 la_data_out[108] la_data_out[111] 0.00264223
+4 la_data_out[108] la_data_out[112] 0
+5 la_data_out[108] la_data_out[114] 7.58589e-05
+6 la_data_out[105] la_data_out[108] 0.00624658
+7 la_data_out[107] la_data_out[108] 0.00928681
+*RES
+1 *267:la_data_out[108] la_data_out[108] 28.6206 
+*END
+
+*D_NET *139 0.0184766
+*CONN
+*P la_data_out[109] O
+*I *267:la_data_out[109] O *D user_proj_example
+*CAP
+1 la_data_out[109] 0.00437084
+2 *267:la_data_out[109] 0.00437084
+3 la_data_out[109] la_data_out[111] 0.000509495
+4 la_data_out[109] la_data_out[113] 0.00316493
+5 la_data_out[106] la_data_out[109] 0.00606051
+*RES
+1 *267:la_data_out[109] la_data_out[109] 29.5246 
+*END
+
+*D_NET *140 0.0609243
+*CONN
+*P la_data_out[10] O
+*I *267:la_data_out[10] O *D user_proj_example
+*CAP
+1 la_data_out[10] 0.000300924
+2 *267:la_data_out[10] 0.00596802
+3 *140:19 0.00871069
+4 *140:17 0.0143778
+5 la_data_out[10] *173:23 0
+6 la_data_out[10] *182:17 0
+7 *140:17 *151:17 0.0107957
+8 *140:17 *151:19 0.000425775
+9 *140:17 *160:11 0.00112406
+10 *140:17 *166:11 0.000382746
+11 *140:17 *168:13 0
+12 *140:19 la_data_out[11] 0.00215765
+13 *140:19 *151:19 0.0129692
+14 *140:19 *166:11 0.000260547
+15 *140:19 *167:17 0.000634923
+16 *140:19 *169:17 0.000444004
+17 *140:19 *172:17 0.000444004
+18 *140:19 *175:13 0.00192829
+19 *1:9 *140:17 0
+*RES
+1 *267:la_data_out[10] *140:17 32.212 
+2 *140:17 *140:19 216.42 
+3 *140:19 la_data_out[10] 6.515 
+*END
+
+*D_NET *141 0.0138398
+*CONN
+*P la_data_out[110] O
+*I *267:la_data_out[110] O *D user_proj_example
+*CAP
+1 la_data_out[110] 0.00691992
+2 *267:la_data_out[110] 0.00691992
+3 la_data_out[110] la_data_out[112] 0
+*RES
+1 *267:la_data_out[110] la_data_out[110] 26.5855 
+*END
+
+*D_NET *142 0.0177505
+*CONN
+*P la_data_out[111] O
+*I *267:la_data_out[111] O *D user_proj_example
+*CAP
+1 la_data_out[111] 0.00340287
+2 *267:la_data_out[111] 0.00340287
+3 la_data_out[111] la_data_out[112] 0
+4 la_data_out[111] la_data_out[113] 0.00101753
+5 la_data_out[111] la_data_out[114] 0.00450414
+6 la_data_out[105] la_data_out[111] 0.000822105
+7 la_data_out[106] la_data_out[111] 0.00144924
+8 la_data_out[108] la_data_out[111] 0.00264223
+9 la_data_out[109] la_data_out[111] 0.000509495
+*RES
+1 *267:la_data_out[111] la_data_out[111] 27.3387 
+*END
+
+*D_NET *143 0.0126313
+*CONN
+*P la_data_out[112] O
+*I *267:la_data_out[112] O *D user_proj_example
+*CAP
+1 la_data_out[112] 0.00602544
+2 *267:la_data_out[112] 0.00602544
+3 la_data_out[112] la_data_out[117] 0.000580397
+4 la_data_out[107] la_data_out[112] 0
+5 la_data_out[108] la_data_out[112] 0
+6 la_data_out[110] la_data_out[112] 0
+7 la_data_out[111] la_data_out[112] 0
+*RES
+1 *267:la_data_out[112] la_data_out[112] 26.8726 
+*END
+
+*D_NET *144 0.0217641
+*CONN
+*P la_data_out[113] O
+*I *267:la_data_out[113] O *D user_proj_example
+*CAP
+1 la_data_out[113] 0.00246337
+2 *267:la_data_out[113] 0.00246337
+3 la_data_out[113] la_data_out[114] 0.00760604
+4 la_data_out[113] la_data_out[115] 0.00101931
+5 la_data_out[113] la_data_out[116] 0.00402953
+6 la_data_out[107] la_data_out[113] 0
+7 la_data_out[109] la_data_out[113] 0.00316493
+8 la_data_out[111] la_data_out[113] 0.00101753
+*RES
+1 *267:la_data_out[113] la_data_out[113] 27.2712 
+*END
+
+*D_NET *145 0.0192637
+*CONN
+*P la_data_out[114] O
+*I *267:la_data_out[114] O *D user_proj_example
+*CAP
+1 la_data_out[114] 0.00310982
+2 *267:la_data_out[114] 0.00310982
+3 la_data_out[114] la_data_out[116] 0.000857981
+4 la_data_out[108] la_data_out[114] 7.58589e-05
+5 la_data_out[111] la_data_out[114] 0.00450414
+6 la_data_out[113] la_data_out[114] 0.00760604
+*RES
+1 *267:la_data_out[114] la_data_out[114] 26.9101 
+*END
+
+*D_NET *146 0.0157643
+*CONN
+*P la_data_out[115] O
+*I *267:la_data_out[115] O *D user_proj_example
+*CAP
+1 la_data_out[115] 0.00396556
+2 *267:la_data_out[115] 0.00396556
+3 la_data_out[115] la_data_out[116] 0.00681391
+4 la_data_out[113] la_data_out[115] 0.00101931
+*RES
+1 *267:la_data_out[115] la_data_out[115] 27.7576 
+*END
+
+*D_NET *147 0.0175956
+*CONN
+*P la_data_out[116] O
+*I *267:la_data_out[116] O *D user_proj_example
+*CAP
+1 la_data_out[116] 0.00294711
+2 *267:la_data_out[116] 0.00294711
+3 la_data_out[113] la_data_out[116] 0.00402953
+4 la_data_out[114] la_data_out[116] 0.000857981
+5 la_data_out[115] la_data_out[116] 0.00681391
+*RES
+1 *267:la_data_out[116] la_data_out[116] 25.9213 
+*END
+
+*D_NET *148 0.017295
+*CONN
+*P la_data_out[117] O
+*I *267:la_data_out[117] O *D user_proj_example
+*CAP
+1 la_data_out[117] 0.00281652
+2 *267:la_data_out[117] 0.00281652
+3 la_data_out[117] la_data_out[118] 0.0064245
+4 la_data_out[117] la_data_out[119] 0.00465702
+5 la_data_out[112] la_data_out[117] 0.000580397
+*RES
+1 *267:la_data_out[117] la_data_out[117] 24.7167 
+*END
+
+*D_NET *149 0.0141258
+*CONN
+*P la_data_out[118] O
+*I *267:la_data_out[118] O *D user_proj_example
+*CAP
+1 la_data_out[118] 0.00341896
+2 *267:la_data_out[118] 0.00341896
+3 la_data_out[118] la_data_out[119] 0.000863356
+4 la_data_out[117] la_data_out[118] 0.0064245
+*RES
+1 *267:la_data_out[118] la_data_out[118] 23.9638 
+*END
+
+*D_NET *150 0.0163306
+*CONN
+*P la_data_out[119] O
+*I *267:la_data_out[119] O *D user_proj_example
+*CAP
+1 la_data_out[119] 0.00242941
+2 *267:la_data_out[119] 0.00242941
+3 la_data_out[119] la_data_out[120] 0.00595144
+4 la_data_out[117] la_data_out[119] 0.00465702
+5 la_data_out[118] la_data_out[119] 0.000863356
+*RES
+1 *267:la_data_out[119] la_data_out[119] 23.2692 
+*END
+
+*D_NET *151 0.0726728
+*CONN
+*P la_data_out[11] O
+*I *267:la_data_out[11] O *D user_proj_example
+*CAP
+1 la_data_out[11] 0.00111069
+2 *267:la_data_out[11] 0.00233089
+3 *151:19 0.00929461
+4 *151:17 0.0105148
+5 la_data_out[11] *172:21 0.0011793
+6 la_data_out[11] *172:25 0.00164304
+7 la_data_out[11] *173:23 0
+8 la_data_out[11] *173:27 8.03844e-05
+9 la_data_out[11] *175:13 0.000535673
+10 la_data_out[11] *177:21 0
+11 *151:17 *160:11 0.00892805
+12 *151:19 *167:17 0.000746724
+13 *151:19 *168:13 0.000370857
+14 *151:19 *169:17 0.00158339
+15 *151:19 *172:17 0.00158337
+16 *151:19 *172:21 0.00341555
+17 *151:19 *175:13 0.00300718
+18 *1:9 *151:17 0
+19 *140:17 *151:17 0.0107957
+20 *140:17 *151:19 0.000425775
+21 *140:19 la_data_out[11] 0.00215765
+22 *140:19 *151:19 0.0129692
+*RES
+1 *267:la_data_out[11] *151:17 26.3173 
+2 *151:17 *151:19 217.283 
+3 *151:19 la_data_out[11] 39.6725 
+*END
+
+*D_NET *152 0.0164048
+*CONN
+*P la_data_out[120] O
+*I *267:la_data_out[120] O *D user_proj_example
+*CAP
+1 la_data_out[120] 0.00222031
+2 *267:la_data_out[120] 0.00222031
+3 la_data_out[120] la_data_out[121] 0.00563665
+4 la_data_out[120] la_data_out[124] 0.000376045
+5 la_data_out[119] la_data_out[120] 0.00595144
+*RES
+1 *267:la_data_out[120] la_data_out[120] 22.6329 
+*END
+
+*D_NET *153 0.0130799
+*CONN
+*P la_data_out[121] O
+*I *267:la_data_out[121] O *D user_proj_example
+*CAP
+1 la_data_out[121] 0.00270898
+2 *267:la_data_out[121] 0.00270898
+3 la_data_out[121] la_data_out[122] 0.000563298
+4 la_data_out[121] la_data_out[123] 0.00146201
+5 la_data_out[121] la_data_out[125] 0
+6 la_data_out[120] la_data_out[121] 0.00563665
+*RES
+1 *267:la_data_out[121] la_data_out[121] 22.1668 
+*END
+
+*D_NET *154 0.0124468
+*CONN
+*P la_data_out[122] O
+*I *267:la_data_out[122] O *D user_proj_example
+*CAP
+1 la_data_out[122] 0.0035051
+2 *267:la_data_out[122] 0.0035051
+3 la_data_out[122] la_data_out[123] 0.00487327
+4 la_data_out[121] la_data_out[122] 0.000563298
+*RES
+1 *267:la_data_out[122] la_data_out[122] 21.3998 
+*END
+
+*D_NET *155 0.0121746
+*CONN
+*P la_data_out[123] O
+*I *267:la_data_out[123] O *D user_proj_example
+*CAP
+1 la_data_out[123] 0.00291967
+2 *267:la_data_out[123] 0.00291967
+3 la_data_out[121] la_data_out[123] 0.00146201
+4 la_data_out[122] la_data_out[123] 0.00487327
+*RES
+1 *267:la_data_out[123] la_data_out[123] 20.9861 
+*END
+
+*D_NET *156 0.00999968
+*CONN
+*P la_data_out[124] O
+*I *267:la_data_out[124] O *D user_proj_example
+*CAP
+1 la_data_out[124] 0.0033967
+2 *267:la_data_out[124] 0.0033967
+3 la_data_out[124] la_data_out[125] 0.00205085
+4 la_data_out[124] la_data_out[127] 0.000779392
+5 la_data_out[120] la_data_out[124] 0.000376045
+*RES
+1 *267:la_data_out[124] la_data_out[124] 22.3116 
+*END
+
+*D_NET *157 0.0128066
+*CONN
+*P la_data_out[125] O
+*I *267:la_data_out[125] O *D user_proj_example
+*CAP
+1 la_data_out[125] 0.00220193
+2 *267:la_data_out[125] 0.00220193
+3 la_data_out[125] la_data_out[126] 0.00407625
+4 la_data_out[125] la_data_out[127] 0.0022756
+5 la_data_out[121] la_data_out[125] 0
+6 la_data_out[124] la_data_out[125] 0.00205085
+*RES
+1 *267:la_data_out[125] la_data_out[125] 22.5372 
+*END
+
+*D_NET *158 0.0102291
+*CONN
+*P la_data_out[126] O
+*I *267:la_data_out[126] O *D user_proj_example
+*CAP
+1 la_data_out[126] 0.00268855
+2 *267:la_data_out[126] 0.00268855
+3 la_data_out[126] la_data_out[127] 0.000775721
+4 la_data_out[125] la_data_out[126] 0.00407625
+*RES
+1 *267:la_data_out[126] la_data_out[126] 22.9798 
+*END
+
+*D_NET *159 0.00904025
+*CONN
+*P la_data_out[127] O
+*I *267:la_data_out[127] O *D user_proj_example
+*CAP
+1 la_data_out[127] 0.00260477
+2 *267:la_data_out[127] 0.00260477
+3 la_data_out[124] la_data_out[127] 0.000779392
+4 la_data_out[125] la_data_out[127] 0.0022756
+5 la_data_out[126] la_data_out[127] 0.000775721
+*RES
+1 *267:la_data_out[127] la_data_out[127] 21.2069 
+*END
+
+*D_NET *160 0.0892405
+*CONN
+*P la_data_out[12] O
+*I *267:la_data_out[12] O *D user_proj_example
+*CAP
+1 la_data_out[12] 0.000407462
+2 *267:la_data_out[12] 0.000308792
+3 *160:11 0.00674802
+4 *160:9 0.00664935
+5 *160:11 *161:11 0.037088
+6 *160:11 *166:11 0.0279868
+7 *1:9 *160:11 0
+8 *140:17 *160:11 0.00112406
+9 *151:17 *160:11 0.00892805
+*RES
+1 *267:la_data_out[12] *160:9 5.945 
+2 *160:9 *160:11 57.6637 
+3 *160:11 la_data_out[12] 6.6725 
+*END
+
+*D_NET *161 0.0889076
+*CONN
+*P la_data_out[13] O
+*I *267:la_data_out[13] O *D user_proj_example
+*CAP
+1 la_data_out[13] 0.000438941
+2 *267:la_data_out[13] 0.000261944
+3 *161:11 0.00659469
+4 *161:9 0.00641769
+5 la_data_out[13] *176:17 0
+6 *161:11 *162:11 0.0368458
+7 *161:11 *166:11 0.000865364
+8 *1:9 *161:11 0.000395239
+9 *160:11 *161:11 0.037088
+*RES
+1 *267:la_data_out[13] *161:9 5.09 
+2 *161:9 *161:11 57.3141 
+3 *161:11 la_data_out[13] 7.1825 
+*END
+
+*D_NET *162 0.0881329
+*CONN
+*P la_data_out[14] O
+*I *267:la_data_out[14] O *D user_proj_example
+*CAP
+1 la_data_out[14] 0.000419359
+2 *267:la_data_out[14] 0.000215097
+3 *162:11 0.0064254
+4 *162:9 0.00622114
+5 la_data_out[14] *176:25 0.000180308
+6 la_data_out[14] *185:19 0
+7 *162:11 *163:11 0.0366367
+8 *162:11 *166:11 0.000655179
+9 *1:9 *162:11 0.000533975
+10 *161:11 *162:11 0.0368458
+*RES
+1 *267:la_data_out[14] *162:9 4.235 
+2 *162:9 *162:11 56.9063 
+3 *162:11 la_data_out[14] 7.6925 
+*END
+
+*D_NET *163 0.0875991
+*CONN
+*P la_data_out[15] O
+*I *267:la_data_out[15] O *D user_proj_example
+*CAP
+1 la_data_out[15] 0.000399323
+2 *267:la_data_out[15] 0.00016825
+3 *163:11 0.00628083
+4 *163:9 0.00604976
+5 la_data_out[15] *180:19 0
+6 la_data_out[15] *186:17 0.000399608
+7 *163:11 *164:11 0.0363537
+8 *163:11 *166:11 0.00050833
+9 *1:9 *163:11 0.000802643
+10 *162:11 *163:11 0.0366367
+*RES
+1 *267:la_data_out[15] *163:9 3.38 
+2 *163:9 *163:11 56.6149 
+3 *163:11 la_data_out[15] 8.2025 
+*END
+
+*D_NET *164 0.0869545
+*CONN
+*P la_data_out[16] O
+*I *267:la_data_out[16] O *D user_proj_example
+*CAP
+1 la_data_out[16] 0.000525212
+2 *267:la_data_out[16] 0.000140158
+3 *164:11 0.0064858
+4 *164:9 0.00610075
+5 la_data_out[16] *187:23 0
+6 *164:11 *165:11 0.035875
+7 *164:11 *166:11 0.00033452
+8 *1:9 *164:11 0.00113929
+9 *163:11 *164:11 0.0363537
+*RES
+1 *267:la_data_out[16] *164:9 2.87 
+2 *164:9 *164:11 56.1488 
+3 *164:11 la_data_out[16] 8.7125 
+*END
+
+*D_NET *165 0.086454
+*CONN
+*P la_data_out[17] O
+*I *267:la_data_out[17] O *D user_proj_example
+*CAP
+1 la_data_out[17] 0.000565724
+2 *267:la_data_out[17] 0.00017117
+3 *165:11 0.00655476
+4 *165:9 0.0061602
+5 *165:11 *166:11 0
+6 *165:11 *167:19 0.000426047
+7 *165:11 *170:21 0.0255353
+8 *1:9 *165:11 0.0111657
+9 *164:11 *165:11 0.035875
+*RES
+1 *267:la_data_out[17] *165:9 3.395 
+2 *165:9 *165:11 55.5079 
+3 *165:11 la_data_out[17] 9.2225 
+*END
+
+*D_NET *166 0.0652608
+*CONN
+*P la_data_out[18] O
+*I *267:la_data_out[18] O *D user_proj_example
+*CAP
+1 la_data_out[18] 0.000388553
+2 *267:la_data_out[18] 0.000375751
+3 *166:11 0.0100974
+4 *166:9 0.0100846
+5 la_data_out[18] *183:17 0
+6 *166:11 la_data_out[26] 0.00203199
+7 *166:11 *167:17 0.00100698
+8 *166:11 *168:13 0
+9 *166:11 *169:17 0.000841621
+10 *166:11 *170:17 0
+11 *166:11 *170:21 0
+12 *166:11 *172:17 0.00121075
+13 *166:11 *173:27 0.000663186
+14 *166:11 *175:13 0.00478605
+15 *166:11 *176:27 0.0012906
+16 *166:11 *178:27 0.00148985
+17 *140:17 *166:11 0.000382746
+18 *140:19 *166:11 0.000260547
+19 *160:11 *166:11 0.0279868
+20 *161:11 *166:11 0.000865364
+21 *162:11 *166:11 0.000655179
+22 *163:11 *166:11 0.00050833
+23 *164:11 *166:11 0.00033452
+24 *165:11 *166:11 0
+*RES
+1 *267:la_data_out[18] *166:9 6.455 
+2 *166:9 *166:11 55.0417 
+3 *166:11 la_data_out[18] 6.1625 
+*END
+
+*D_NET *167 0.0917353
+*CONN
+*P la_data_out[19] O
+*I *267:la_data_out[19] O *D user_proj_example
+*CAP
+1 la_data_out[19] 0.000626575
+2 *267:la_data_out[19] 0.00185338
+3 *167:19 0.00699102
+4 *167:17 0.00821783
+5 *167:17 *168:13 2.55692e-05
+6 *167:17 *169:17 0.00146722
+7 *167:17 *170:17 0
+8 *167:17 *179:13 0.000454079
+9 *167:17 *201:13 6.08626e-05
+10 *167:19 *169:21 0.0289726
+11 *167:19 *170:21 0.0276842
+12 *167:19 *171:27 0.00644581
+13 *167:19 *256:6 0.00196071
+14 *1:9 *167:19 0.00416073
+15 *140:19 *167:17 0.000634923
+16 *151:19 *167:17 0.000746724
+17 *165:11 *167:19 0.000426047
+18 *166:11 *167:17 0.00100698
+*RES
+1 *267:la_data_out[19] *167:17 20.5941 
+2 *167:17 *167:19 49.7977 
+3 *167:19 la_data_out[19] 10.2425 
+*END
+
+*D_NET *168 0.0759698
+*CONN
+*P la_data_out[1] O
+*I *267:la_data_out[1] O *D user_proj_example
+*CAP
+1 la_data_out[1] 0.000101757
+2 *267:la_data_out[1] 0.000477255
+3 *168:19 0.00252228
+4 *168:17 0.00262939
+5 *168:13 0.0120247
+6 *168:9 0.0122931
+7 *168:13 *179:13 0.0308688
+8 *168:19 *179:19 0.00786582
+9 *168:19 *201:19 0.00443269
+10 *168:19 *245:11 0.00235759
+11 *140:17 *168:13 0
+12 *151:19 *168:13 0.000370857
+13 *166:11 *168:13 0
+14 *167:17 *168:13 2.55692e-05
+*RES
+1 *267:la_data_out[1] *168:9 8.99 
+2 *168:9 *168:13 49.0741 
+3 *168:13 *168:17 5.0375 
+4 *168:17 *168:19 84.285 
+5 *168:19 la_data_out[1] 2.975 
+*END
+
+*D_NET *169 0.0782189
+*CONN
+*P la_data_out[20] O
+*I *267:la_data_out[20] O *D user_proj_example
+*CAP
+1 la_data_out[20] 0.000664211
+2 *267:la_data_out[20] 0.00251463
+3 *169:21 0.010623
+4 *169:17 0.0124734
+5 la_data_out[20] *191:17 0
+6 *169:17 *170:17 0.00193945
+7 *169:17 *172:17 0
+8 *169:17 *201:13 0.000563298
+9 *169:21 la_data_out[32] 0.000807081
+10 *169:21 *170:21 0.000778476
+11 *169:21 *171:27 0.000250485
+12 *169:21 *256:6 0.014296
+13 *140:19 *169:17 0.000444004
+14 *151:19 *169:17 0.00158339
+15 *166:11 *169:17 0.000841621
+16 *167:17 *169:17 0.00146722
+17 *167:19 *169:21 0.0289726
+*RES
+1 *267:la_data_out[20] *169:17 24.9209 
+2 *169:17 *169:21 47.0348 
+3 *169:21 la_data_out[20] 10.2525 
+*END
+
+*D_NET *170 0.0817564
+*CONN
+*P la_data_out[21] O
+*I *267:la_data_out[21] O *D user_proj_example
+*CAP
+1 la_data_out[21] 0.000591178
+2 *267:la_data_out[21] 0.00209969
+3 *170:21 0.00744459
+4 *170:17 0.00895311
+5 la_data_out[21] *192:17 0
+6 *170:17 *171:21 0.00288143
+7 *170:17 *172:17 0.000634169
+8 *170:17 *201:13 0.000846577
+9 *170:17 *234:13 0.000144147
+10 *170:21 la_data_out[32] 0.000570638
+11 *170:21 *171:27 0.000289095
+12 *170:21 *178:27 0
+13 *170:21 *181:33 0.0013643
+14 *170:21 *183:25 0
+15 la_data_out[0] *170:17 0
+16 *165:11 *170:21 0.0255353
+17 *166:11 *170:17 0
+18 *166:11 *170:21 0
+19 *167:17 *170:17 0
+20 *167:19 *170:21 0.0276842
+21 *169:17 *170:17 0.00193945
+22 *169:21 *170:21 0.000778476
+*RES
+1 *267:la_data_out[21] *170:17 25.2417 
+2 *170:17 *170:21 47.3261 
+3 *170:21 la_data_out[21] 9.2325 
+*END
+
+*D_NET *171 0.0658152
+*CONN
+*P la_data_out[22] O
+*I *267:la_data_out[22] O *D user_proj_example
+*CAP
+1 la_data_out[22] 0.000638318
+2 *267:la_data_out[22] 0.00382026
+3 *171:27 0.00986885
+4 *171:25 0.00969936
+5 *171:21 0.00428908
+6 la_data_out[22] *185:25 0
+7 la_data_out[22] *193:17 0
+8 *171:21 la_data_out[5] 0.000103519
+9 *171:21 *172:17 0.000272153
+10 *171:21 *172:21 0.000752928
+11 *171:21 *173:23 0.0107351
+12 *171:21 *175:13 0.000571557
+13 *171:21 *176:17 0.00531062
+14 *171:21 *180:19 0.000147895
+15 *171:21 *212:11 0.00127984
+16 *171:21 *234:13 0.00314609
+17 *171:21 *245:11 0.000119387
+18 *171:27 la_data_out[32] 0.000104633
+19 *171:27 la_data_out[34] 0.000211086
+20 *171:27 *181:33 0.00487768
+21 *167:19 *171:27 0.00644581
+22 *169:21 *171:27 0.000250485
+23 *170:17 *171:21 0.00288143
+24 *170:21 *171:27 0.000289095
+*RES
+1 *267:la_data_out[22] *171:21 49.5346 
+2 *171:21 *171:25 8.735 
+3 *171:25 *171:27 178.815 
+4 *171:27 la_data_out[22] 11.87 
+*END
+
+*D_NET *172 0.0767481
+*CONN
+*P la_data_out[23] O
+*I *267:la_data_out[23] O *D user_proj_example
+*CAP
+1 la_data_out[23] 0.000256773
+2 *267:la_data_out[23] 0.00316409
+3 *172:27 0.00286226
+4 *172:25 0.00293704
+5 *172:21 0.00168243
+6 *172:17 0.00451497
+7 la_data_out[23] *186:17 5.03545e-05
+8 *172:17 *173:23 0.00104603
+9 *172:17 *174:17 0.00666991
+10 *172:17 *175:13 0.00486307
+11 *172:21 *174:21 0.00145665
+12 *172:21 *175:13 0.00150282
+13 *172:25 *173:23 0.00114854
+14 *172:25 *173:27 0.000120983
+15 *172:25 *174:21 0.00050208
+16 *172:25 *175:13 0.000230463
+17 *172:27 la_data_out[26] 0.00220238
+18 *172:27 *173:27 0.00214167
+19 *172:27 *174:21 0.000237611
+20 *172:27 *174:23 0.0166218
+21 *172:27 *175:13 0.000501641
+22 *172:27 *177:31 0.0016958
+23 *172:27 *180:29 0.00920348
+24 la_data_out[11] *172:21 0.0011793
+25 la_data_out[11] *172:25 0.00164304
+26 *1:7 *172:17 0
+27 *140:19 *172:17 0.000444004
+28 *151:19 *172:17 0.00158337
+29 *151:19 *172:21 0.00341555
+30 *166:11 *172:17 0.00121075
+31 *169:17 *172:17 0
+32 *170:17 *172:17 0.000634169
+33 *171:21 *172:17 0.000272153
+34 *171:21 *172:21 0.000752928
+*RES
+1 *267:la_data_out[23] *172:17 27.4348 
+2 *172:17 *172:21 49.455 
+3 *172:21 *172:25 18.5775 
+4 *172:25 *172:27 156.217 
+5 *172:27 la_data_out[23] 6.26 
+*END
+
+*D_NET *173 0.0775741
+*CONN
+*P la_data_out[24] O
+*I *267:la_data_out[24] O *D user_proj_example
+*CAP
+1 la_data_out[24] 0.000321531
+2 *267:la_data_out[24] 0.00330956
+3 *173:27 0.00402684
+4 *173:25 0.00370531
+5 *173:23 0.00330956
+6 la_data_out[24] *187:23 3.47539e-05
+7 *173:23 *174:17 0.010725
+8 *173:23 *174:21 0.00115022
+9 *173:23 *175:13 0.000967617
+10 *173:23 *176:17 0.00102681
+11 *173:23 *181:23 0.00182953
+12 *173:23 *182:17 0
+13 *173:27 la_data_out[26] 0.000755047
+14 *173:27 *176:27 0.0146618
+15 *173:27 *177:31 0.0135484
+16 *173:27 *178:27 0.00226609
+17 la_data_out[10] *173:23 0
+18 la_data_out[11] *173:23 0
+19 la_data_out[11] *173:27 8.03844e-05
+20 *166:11 *173:27 0.000663186
+21 *171:21 *173:23 0.0107351
+22 *172:17 *173:23 0.00104603
+23 *172:25 *173:23 0.00114854
+24 *172:25 *173:27 0.000120983
+25 *172:27 *173:27 0.00214167
+*RES
+1 *267:la_data_out[24] *173:23 49.3696 
+2 *173:23 *173:25 2 
+3 *173:25 *173:27 174.675 
+4 *173:27 la_data_out[24] 7.025 
+*END
+
+*D_NET *174 0.075246
+*CONN
+*P la_data_out[25] O
+*I *267:la_data_out[25] O *D user_proj_example
+*CAP
+1 la_data_out[25] 0.000255051
+2 *267:la_data_out[25] 0.00234011
+3 *174:23 0.00467458
+4 *174:21 0.00574262
+5 *174:17 0.00366321
+6 la_data_out[25] *188:17 0
+7 *174:17 la_data_out[9] 3.26867e-05
+8 *174:17 *175:13 0.00231121
+9 *174:17 *181:23 8.66285e-05
+10 *174:21 *175:13 0.00108418
+11 *174:21 *177:21 0.000578304
+12 *174:23 la_data_out[26] 0.00123068
+13 *174:23 *175:13 0.000457699
+14 *174:23 *177:21 0.000463229
+15 *174:23 *177:29 0.00345518
+16 *174:23 *180:27 0.00282366
+17 *174:23 *180:29 0.00175008
+18 *174:23 *181:31 0.00225009
+19 *174:23 *185:19 0.00145381
+20 *174:23 *187:23 0.00322963
+21 *172:17 *174:17 0.00666991
+22 *172:21 *174:21 0.00145665
+23 *172:25 *174:21 0.00050208
+24 *172:27 *174:21 0.000237611
+25 *172:27 *174:23 0.0166218
+26 *173:23 *174:17 0.010725
+27 *173:23 *174:21 0.00115022
+*RES
+1 *267:la_data_out[25] *174:17 28.899 
+2 *174:17 *174:21 37.29 
+3 *174:21 *174:23 177.435 
+4 *174:23 la_data_out[25] 6.005 
+*END
+
+*D_NET *175 0.0880677
+*CONN
+*P la_data_out[26] O
+*I *267:la_data_out[26] O *D user_proj_example
+*CAP
+1 la_data_out[26] 0.00467141
+2 *267:la_data_out[26] 0.0055088
+3 *175:13 0.0101802
+4 la_data_out[26] *177:29 0.000725059
+5 la_data_out[26] *177:31 0.000314605
+6 la_data_out[26] *178:27 0.0146904
+7 la_data_out[26] *180:27 0.000682189
+8 la_data_out[26] *180:29 0.00298674
+9 la_data_out[26] *182:17 0.0011895
+10 la_data_out[26] *186:17 0.00103501
+11 la_data_out[26] *187:23 0.0119855
+12 la_data_out[26] *193:17 0.000189593
+13 la_data_out[26] *195:17 0.00101369
+14 la_data_out[26] *196:13 0.000591141
+15 *175:13 la_data_out[3] 0
+16 *175:13 *177:21 0.000611641
+17 *175:13 *177:29 0.000126737
+18 *175:13 *181:23 4.42385e-05
+19 *175:13 *182:17 0.00255382
+20 la_data_out[11] *175:13 0.000535673
+21 *140:19 *175:13 0.00192829
+22 *151:19 *175:13 0.00300718
+23 *166:11 la_data_out[26] 0.00203199
+24 *166:11 *175:13 0.00478605
+25 *171:21 *175:13 0.000571557
+26 *172:17 *175:13 0.00486307
+27 *172:21 *175:13 0.00150282
+28 *172:25 *175:13 0.000230463
+29 *172:27 la_data_out[26] 0.00220238
+30 *172:27 *175:13 0.000501641
+31 *173:23 *175:13 0.000967617
+32 *173:27 la_data_out[26] 0.000755047
+33 *174:17 *175:13 0.00231121
+34 *174:21 *175:13 0.00108418
+35 *174:23 la_data_out[26] 0.00123068
+36 *174:23 *175:13 0.000457699
+*RES
+1 *267:la_data_out[26] *175:13 31.4103 
+2 *175:13 la_data_out[26] 33.4834 
+*END
+
+*D_NET *176 0.0667073
+*CONN
+*P la_data_out[27] O
+*I *267:la_data_out[27] O *D user_proj_example
+*CAP
+1 la_data_out[27] 0.000350516
+2 *267:la_data_out[27] 0.00323582
+3 *176:27 0.00679835
+4 *176:25 0.00720468
+5 *176:17 0.00399266
+6 la_data_out[27] *191:17 0
+7 la_data_out[27] *197:17 0
+8 *176:17 la_data_out[5] 0.000252022
+9 *176:17 *177:21 0.00200535
+10 *176:17 *180:19 0.00765017
+11 *176:17 *181:23 0.00587991
+12 *176:17 *184:17 0
+13 *176:17 *245:11 0.000584324
+14 *176:25 *177:29 0.00107173
+15 *176:25 *182:17 0.000385571
+16 *176:27 *177:31 0.00260387
+17 *176:27 *183:25 0.00222222
+18 la_data_out[13] *176:17 0
+19 la_data_out[14] *176:25 0.000180308
+20 *166:11 *176:27 0.0012906
+21 *171:21 *176:17 0.00531062
+22 *173:23 *176:17 0.00102681
+23 *173:27 *176:27 0.0146618
+*RES
+1 *267:la_data_out[27] *176:17 34.7968 
+2 *176:17 *176:25 22.465 
+3 *176:25 *176:27 172.605 
+4 *176:27 la_data_out[27] 7.28 
+*END
+
+*D_NET *177 0.0734185
+*CONN
+*P la_data_out[28] O
+*I *267:la_data_out[28] O *D user_proj_example
+*CAP
+1 la_data_out[28] 0.000303911
+2 *267:la_data_out[28] 0.00377812
+3 *177:31 0.00334259
+4 *177:29 0.00395009
+5 *177:21 0.00468952
+6 la_data_out[28] *198:17 0
+7 *177:21 la_data_out[6] 0.000263049
+8 *177:21 la_data_out[8] 0.000374128
+9 *177:21 *178:17 0.0041091
+10 *177:21 *180:19 0.00537398
+11 *177:21 *183:17 0
+12 *177:21 *234:19 0.000543582
+13 *177:21 *245:11 1.02564e-05
+14 *177:29 *180:19 8.53113e-06
+15 *177:29 *186:17 0
+16 *177:31 *178:27 0.00272073
+17 *177:31 *180:29 0.0165482
+18 *177:31 *183:25 0.000202805
+19 la_data_out[11] *177:21 0
+20 la_data_out[26] *177:29 0.000725059
+21 la_data_out[26] *177:31 0.000314605
+22 *172:27 *177:31 0.0016958
+23 *173:27 *177:31 0.0135484
+24 *174:21 *177:21 0.000578304
+25 *174:23 *177:21 0.000463229
+26 *174:23 *177:29 0.00345518
+27 *175:13 *177:21 0.000611641
+28 *175:13 *177:29 0.000126737
+29 *176:17 *177:21 0.00200535
+30 *176:25 *177:29 0.00107173
+31 *176:27 *177:31 0.00260387
+*RES
+1 *267:la_data_out[28] *177:21 46.7913 
+2 *177:21 *177:29 36.4525 
+3 *177:29 *177:31 176.055 
+4 *177:31 la_data_out[28] 6.77 
+*END
+
+*D_NET *178 0.072988
+*CONN
+*P la_data_out[29] O
+*I *267:la_data_out[29] O *D user_proj_example
+*CAP
+1 la_data_out[29] 0.000248534
+2 *267:la_data_out[29] 0.00679505
+3 *178:27 0.00468387
+4 *178:17 0.0112304
+5 *178:17 la_data_out[8] 0.000857336
+6 *178:17 *180:19 0.000829678
+7 *178:17 *184:17 0.00103798
+8 *178:17 *185:19 0.00387049
+9 *178:17 *187:23 0
+10 *178:17 *234:19 0.000219672
+11 *178:27 la_data_out[45] 0.00041502
+12 *178:27 *180:29 0.00188865
+13 *178:27 *183:25 0.013859
+14 *178:27 *191:17 0
+15 *178:27 *196:13 0.00118627
+16 *178:27 *198:17 0.000589956
+17 la_data_out[26] *178:27 0.0146904
+18 *166:11 *178:27 0.00148985
+19 *170:21 *178:27 0
+20 *173:27 *178:27 0.00226609
+21 *177:21 *178:17 0.0041091
+22 *177:31 *178:27 0.00272073
+*RES
+1 *267:la_data_out[29] *178:17 40.998 
+2 *178:17 *178:27 49.3686 
+3 *178:27 la_data_out[29] 6.005 
+*END
+
+*D_NET *179 0.091642
+*CONN
+*P la_data_out[2] O
+*I *267:la_data_out[2] O *D user_proj_example
+*CAP
+1 la_data_out[2] 0.000122163
+2 *267:la_data_out[2] 0.000568091
+3 *179:19 0.00311982
+4 *179:17 0.00319356
+5 *179:13 0.00575923
+6 *179:9 0.00613141
+7 *179:13 *201:13 0.0287323
+8 *179:19 *201:19 0.000744735
+9 *179:19 *234:19 4.82863e-05
+10 *179:19 *245:11 0.00403373
+11 *167:17 *179:13 0.000454079
+12 *168:13 *179:13 0.0308688
+13 *168:19 *179:19 0.00786582
+*RES
+1 *267:la_data_out[2] *179:9 10.535 
+2 *179:9 *179:13 48.3749 
+3 *179:13 *179:17 4.7825 
+4 *179:17 *179:19 82.905 
+5 *179:19 la_data_out[2] 3.32 
+*END
+
+*D_NET *180 0.0742716
+*CONN
+*P la_data_out[30] O
+*I *267:la_data_out[30] O *D user_proj_example
+*CAP
+1 la_data_out[30] 0.000278398
+2 *267:la_data_out[30] 0.00260923
+3 *180:29 0.0040925
+4 *180:27 0.00483979
+5 *180:19 0.00363492
+6 la_data_out[30] *198:17 2.46262e-05
+7 *180:19 *181:23 0.00179315
+8 *180:19 *184:17 0.00338232
+9 *180:19 *186:17 0
+10 *180:27 *187:23 0.000253473
+11 *180:29 la_data_out[45] 0.00101723
+12 *180:29 *183:27 0.0023635
+13 *180:29 *187:27 8.91919e-05
+14 la_data_out[15] *180:19 0
+15 la_data_out[26] *180:27 0.000682189
+16 la_data_out[26] *180:29 0.00298674
+17 *171:21 *180:19 0.000147895
+18 *172:27 *180:29 0.00920348
+19 *174:23 *180:27 0.00282366
+20 *174:23 *180:29 0.00175008
+21 *176:17 *180:19 0.00765017
+22 *177:21 *180:19 0.00537398
+23 *177:29 *180:19 8.53113e-06
+24 *177:31 *180:29 0.0165482
+25 *178:17 *180:19 0.000829678
+26 *178:27 *180:29 0.00188865
+*RES
+1 *267:la_data_out[30] *180:19 32.304 
+2 *180:19 *180:27 30.505 
+3 *180:27 *180:29 176.745 
+4 *180:29 la_data_out[30] 6.515 
+*END
+
+*D_NET *181 0.0675091
+*CONN
+*P la_data_out[31] O
+*I *267:la_data_out[31] O *D user_proj_example
+*CAP
+1 la_data_out[31] 0.000634667
+2 *267:la_data_out[31] 0.0029201
+3 *181:33 0.00647118
+4 *181:31 0.00692145
+5 *181:23 0.00400504
+6 *181:23 la_data_out[9] 3.284e-05
+7 *181:23 *182:17 0.00103824
+8 *181:23 *183:17 0.00868294
+9 *181:23 *184:17 0.00151061
+10 *181:31 *187:23 0.000388679
+11 *181:31 *189:17 0.000176068
+12 *181:33 la_data_out[34] 0.00329113
+13 *181:33 *185:27 0.0133106
+14 *170:21 *181:33 0.0013643
+15 *171:27 *181:33 0.00487768
+16 *173:23 *181:23 0.00182953
+17 *174:17 *181:23 8.66285e-05
+18 *174:23 *181:31 0.00225009
+19 *175:13 *181:23 4.42385e-05
+20 *176:17 *181:23 0.00587991
+21 *180:19 *181:23 0.00179315
+*RES
+1 *267:la_data_out[31] *181:23 33.7278 
+2 *181:23 *181:31 30.43 
+3 *181:31 *181:33 164.67 
+4 *181:33 la_data_out[31] 11.615 
+*END
+
+*D_NET *182 0.0580778
+*CONN
+*P la_data_out[32] O
+*I *267:la_data_out[32] O *D user_proj_example
+*CAP
+1 la_data_out[32] 0.00987035
+2 *267:la_data_out[32] 0.00383031
+3 *182:17 0.0137007
+4 la_data_out[32] la_data_out[34] 0.00517912
+5 la_data_out[32] la_data_out[41] 0.00100969
+6 la_data_out[32] *193:17 0
+7 *182:17 *183:17 0.0104032
+8 *182:17 *184:17 0.000109067
+9 *182:17 *186:17 0.00677236
+10 *182:17 *189:17 0.000553542
+11 la_data_out[10] *182:17 0
+12 la_data_out[26] *182:17 0.0011895
+13 *169:21 la_data_out[32] 0.000807081
+14 *170:21 la_data_out[32] 0.000570638
+15 *171:27 la_data_out[32] 0.000104633
+16 *173:23 *182:17 0
+17 *175:13 *182:17 0.00255382
+18 *176:25 *182:17 0.000385571
+19 *181:23 *182:17 0.00103824
+*RES
+1 *267:la_data_out[32] *182:17 39.5609 
+2 *182:17 la_data_out[32] 39.5016 
+*END
+
+*D_NET *183 0.0655957
+*CONN
+*P la_data_out[33] O
+*I *267:la_data_out[33] O *D user_proj_example
+*CAP
+1 la_data_out[33] 0.000316954
+2 *267:la_data_out[33] 0.00256534
+3 *183:27 0.00280665
+4 *183:25 0.00739568
+5 *183:17 0.00747132
+6 la_data_out[33] *203:17 0
+7 *183:17 *184:17 0.000542276
+8 *183:25 la_data_out[34] 0
+9 *183:25 la_data_out[38] 0.00037184
+10 *183:25 la_data_out[39] 0.00235729
+11 *183:25 la_data_out[45] 0.000849512
+12 *183:25 *186:25 0
+13 *183:25 *187:23 0.000293776
+14 *183:27 la_data_out[36] 0.000133195
+15 *183:27 la_data_out[46] 0.00103085
+16 *183:27 *187:27 0.00172745
+17 la_data_out[18] *183:17 0
+18 *170:21 *183:25 0
+19 *176:27 *183:25 0.00222222
+20 *177:21 *183:17 0
+21 *177:31 *183:25 0.000202805
+22 *178:27 *183:25 0.013859
+23 *180:29 *183:27 0.0023635
+24 *181:23 *183:17 0.00868294
+25 *182:17 *183:17 0.0104032
+*RES
+1 *267:la_data_out[33] *183:17 29.6104 
+2 *183:17 *183:25 25.8078 
+3 *183:25 *183:27 61.515 
+4 *183:27 la_data_out[33] 6.77 
+*END
+
+*D_NET *184 0.0717693
+*CONN
+*P la_data_out[34] O
+*I *267:la_data_out[34] O *D user_proj_example
+*CAP
+1 la_data_out[34] 0.0065212
+2 *267:la_data_out[34] 0.00374638
+3 *184:17 0.0102676
+4 la_data_out[34] la_data_out[38] 0.000535256
+5 la_data_out[34] la_data_out[41] 0.00480176
+6 la_data_out[34] *185:27 0.006743
+7 la_data_out[34] *186:25 0.00865808
+8 la_data_out[34] *194:17 0
+9 la_data_out[34] *204:17 0.000228397
+10 *184:17 *185:19 0.0107159
+11 *184:17 *188:17 5.51896e-05
+12 *184:17 *189:17 0.00101075
+13 *184:17 *191:17 0.00247998
+14 *184:17 *192:17 0.000742229
+15 la_data_out[32] la_data_out[34] 0.00517912
+16 *171:27 la_data_out[34] 0.000211086
+17 *176:17 *184:17 0
+18 *178:17 *184:17 0.00103798
+19 *180:19 *184:17 0.00338232
+20 *181:23 *184:17 0.00151061
+21 *181:33 la_data_out[34] 0.00329113
+22 *182:17 *184:17 0.000109067
+23 *183:17 *184:17 0.000542276
+24 *183:25 la_data_out[34] 0
+*RES
+1 *267:la_data_out[34] *184:17 42.0821 
+2 *184:17 la_data_out[34] 38.1464 
+*END
+
+*D_NET *185 0.066148
+*CONN
+*P la_data_out[35] O
+*I *267:la_data_out[35] O *D user_proj_example
+*CAP
+1 la_data_out[35] 0.000604771
+2 *267:la_data_out[35] 0.00335075
+3 *185:27 0.00803785
+4 *185:25 0.00781417
+5 *185:19 0.00373184
+6 la_data_out[35] *205:17 0
+7 *185:19 *187:23 0.000490046
+8 *185:19 *188:17 0.0052406
+9 *185:19 *192:17 0.000138796
+10 *185:27 la_data_out[41] 0.000645312
+11 la_data_out[14] *185:19 0
+12 la_data_out[22] *185:25 0
+13 la_data_out[34] *185:27 0.006743
+14 *174:23 *185:19 0.00145381
+15 *178:17 *185:19 0.00387049
+16 *181:33 *185:27 0.0133106
+17 *184:17 *185:19 0.0107159
+*RES
+1 *267:la_data_out[35] *185:19 48.4308 
+2 *185:19 *185:25 9.715 
+3 *185:25 *185:27 175.71 
+4 *185:27 la_data_out[35] 11.36 
+*END
+
+*D_NET *186 0.0631896
+*CONN
+*P la_data_out[36] O
+*I *267:la_data_out[36] O *D user_proj_example
+*CAP
+1 la_data_out[36] 0.00178651
+2 *267:la_data_out[36] 0.00312483
+3 *186:25 0.00524188
+4 *186:17 0.0065802
+5 la_data_out[36] la_data_out[45] 0.000752025
+6 la_data_out[36] *187:27 0.00461241
+7 *186:17 *187:23 0.0102446
+8 *186:17 *189:17 0.0012618
+9 *186:17 *193:17 0.000709522
+10 *186:25 la_data_out[38] 0.00255566
+11 *186:25 *187:23 0.008811
+12 *186:25 *199:17 0.000123182
+13 *186:25 *203:17 0.000337327
+14 la_data_out[15] *186:17 0.000399608
+15 la_data_out[23] *186:17 5.03545e-05
+16 la_data_out[26] *186:17 0.00103501
+17 la_data_out[34] *186:25 0.00865808
+18 *177:29 *186:17 0
+19 *180:19 *186:17 0
+20 *182:17 *186:17 0.00677236
+21 *183:25 *186:25 0
+22 *183:27 la_data_out[36] 0.000133195
+*RES
+1 *267:la_data_out[36] *186:17 33.1359 
+2 *186:17 *186:25 28.8534 
+3 *186:25 la_data_out[36] 48.11 
+*END
+
+*D_NET *187 0.0729838
+*CONN
+*P la_data_out[37] O
+*I *267:la_data_out[37] O *D user_proj_example
+*CAP
+1 la_data_out[37] 0.000264734
+2 *267:la_data_out[37] 0.00527764
+3 *187:27 0.00426678
+4 *187:25 0.00400205
+5 *187:23 0.00527764
+6 *187:23 la_data_out[38] 0.00757616
+7 *187:23 *193:17 0.000755111
+8 *187:23 *198:17 0.000100037
+9 *187:27 la_data_out[45] 0.0021969
+10 *187:27 *205:17 0.0011062
+11 la_data_out[16] *187:23 0
+12 la_data_out[24] *187:23 3.47539e-05
+13 la_data_out[26] *187:23 0.0119855
+14 la_data_out[36] *187:27 0.00461241
+15 *174:23 *187:23 0.00322963
+16 *178:17 *187:23 0
+17 *180:27 *187:23 0.000253473
+18 *180:29 *187:27 8.91919e-05
+19 *181:31 *187:23 0.000388679
+20 *183:25 *187:23 0.000293776
+21 *183:27 *187:27 0.00172745
+22 *185:19 *187:23 0.000490046
+23 *186:17 *187:23 0.0102446
+24 *186:25 *187:23 0.008811
+*RES
+1 *267:la_data_out[37] *187:23 48.8816 
+2 *187:23 *187:25 2 
+3 *187:25 *187:27 94.635 
+4 *187:27 la_data_out[37] 6.005 
+*END
+
+*D_NET *188 0.0615101
+*CONN
+*P la_data_out[38] O
+*I *267:la_data_out[38] O *D user_proj_example
+*CAP
+1 la_data_out[38] 0.00461998
+2 *267:la_data_out[38] 0.00537637
+3 *188:17 0.00999635
+4 la_data_out[38] la_data_out[39] 0.00131017
+5 la_data_out[38] la_data_out[40] 0.0163442
+6 la_data_out[38] la_data_out[41] 0.00140831
+7 *188:17 *192:17 0.00612005
+8 la_data_out[25] *188:17 0
+9 la_data_out[34] la_data_out[38] 0.000535256
+10 *183:25 la_data_out[38] 0.00037184
+11 *184:17 *188:17 5.51896e-05
+12 *185:19 *188:17 0.0052406
+13 *186:25 la_data_out[38] 0.00255566
+14 *187:23 la_data_out[38] 0.00757616
+*RES
+1 *267:la_data_out[38] *188:17 39.2853 
+2 *188:17 la_data_out[38] 37.1552 
+*END
+
+*D_NET *189 0.0642054
+*CONN
+*P la_data_out[39] O
+*I *267:la_data_out[39] O *D user_proj_example
+*CAP
+1 la_data_out[39] 0.00411014
+2 *267:la_data_out[39] 0.0031748
+3 *189:17 0.00728494
+4 la_data_out[39] la_data_out[40] 0.0178735
+5 la_data_out[39] la_data_out[45] 3.98513e-06
+6 la_data_out[39] la_data_out[46] 0.000933049
+7 la_data_out[39] la_data_out[47] 0.00251053
+8 la_data_out[39] la_data_out[48] 0.00938332
+9 la_data_out[39] *208:17 0
+10 *189:17 *191:17 0.00901227
+11 *189:17 *193:17 0.00313619
+12 *189:17 *196:13 0.000113035
+13 la_data_out[38] la_data_out[39] 0.00131017
+14 *181:31 *189:17 0.000176068
+15 *182:17 *189:17 0.000553542
+16 *183:25 la_data_out[39] 0.00235729
+17 *184:17 *189:17 0.00101075
+18 *186:17 *189:17 0.0012618
+*RES
+1 *267:la_data_out[39] *189:17 33.2531 
+2 *189:17 la_data_out[39] 36.6596 
+*END
+
+*D_NET *190 0.0727654
+*CONN
+*P la_data_out[3] O
+*I *267:la_data_out[3] O *D user_proj_example
+*CAP
+1 la_data_out[3] 0.000904486
+2 *267:la_data_out[3] 0
+3 *190:6 0.0172032
+4 *190:4 0.0162987
+5 *190:6 *256:6 0.00230801
+6 *129:6 *190:6 0.036051
+7 *175:13 la_data_out[3] 0
+*RES
+1 *267:la_data_out[3] *190:4 0.5 
+2 *190:4 *190:6 61.4802 
+3 *190:6 la_data_out[3] 14.1125 
+*END
+
+*D_NET *191 0.0695896
+*CONN
+*P la_data_out[40] O
+*I *267:la_data_out[40] O *D user_proj_example
+*CAP
+1 la_data_out[40] 0.00397871
+2 *267:la_data_out[40] 0.0030414
+3 *191:17 0.00702011
+4 la_data_out[40] la_data_out[41] 0
+5 la_data_out[40] la_data_out[48] 0.000863356
+6 la_data_out[40] *202:17 0.000166107
+7 la_data_out[40] *209:17 0.000224284
+8 *191:17 *192:17 0.00165362
+9 *191:17 *193:17 0.000948783
+10 *191:17 *194:17 0.00598331
+11 la_data_out[20] *191:17 0
+12 la_data_out[27] *191:17 0
+13 la_data_out[38] la_data_out[40] 0.0163442
+14 la_data_out[39] la_data_out[40] 0.0178735
+15 *178:27 *191:17 0
+16 *184:17 *191:17 0.00247998
+17 *189:17 *191:17 0.00901227
+*RES
+1 *267:la_data_out[40] *191:17 35.5405 
+2 *191:17 la_data_out[40] 35.946 
+*END
+
+*D_NET *192 0.0610102
+*CONN
+*P la_data_out[41] O
+*I *267:la_data_out[41] O *D user_proj_example
+*CAP
+1 la_data_out[41] 0.0051283
+2 *267:la_data_out[41] 0.00544606
+3 *192:17 0.0105744
+4 la_data_out[41] la_data_out[42] 0.000879161
+5 la_data_out[41] la_data_out[43] 0.010561
+6 la_data_out[41] la_data_out[48] 0
+7 la_data_out[41] *200:17 0.00056753
+8 la_data_out[41] *210:21 0
+9 *192:17 *194:17 0.011334
+10 *192:17 *200:17 0
+11 la_data_out[21] *192:17 0
+12 la_data_out[32] la_data_out[41] 0.00100969
+13 la_data_out[34] la_data_out[41] 0.00480176
+14 la_data_out[38] la_data_out[41] 0.00140831
+15 la_data_out[40] la_data_out[41] 0
+16 *184:17 *192:17 0.000742229
+17 *185:19 *192:17 0.000138796
+18 *185:27 la_data_out[41] 0.000645312
+19 *188:17 *192:17 0.00612005
+20 *191:17 *192:17 0.00165362
+*RES
+1 *267:la_data_out[41] *192:17 45.3111 
+2 *192:17 la_data_out[41] 33.3541 
+*END
+
+*D_NET *193 0.0535963
+*CONN
+*P la_data_out[42] O
+*I *267:la_data_out[42] O *D user_proj_example
+*CAP
+1 la_data_out[42] 0.00652833
+2 *267:la_data_out[42] 0.00465418
+3 *193:17 0.0111825
+4 la_data_out[42] la_data_out[43] 0.0012494
+5 la_data_out[42] la_data_out[44] 0.00979845
+6 la_data_out[42] *202:25 0.000523988
+7 la_data_out[42] *205:17 0.000185743
+8 *193:17 *194:17 0.000990447
+9 *193:17 *195:17 0.00380328
+10 *193:17 *197:17 0.00245906
+11 *193:17 *199:17 0.002072
+12 *193:17 *200:17 0.00266233
+13 *193:17 *202:17 0.000868247
+14 la_data_out[22] *193:17 0
+15 la_data_out[26] *193:17 0.000189593
+16 la_data_out[32] *193:17 0
+17 la_data_out[41] la_data_out[42] 0.000879161
+18 *186:17 *193:17 0.000709522
+19 *187:23 *193:17 0.000755111
+20 *189:17 *193:17 0.00313619
+21 *191:17 *193:17 0.000948783
+*RES
+1 *267:la_data_out[42] *193:17 43.072 
+2 *193:17 la_data_out[42] 34.7238 
+*END
+
+*D_NET *194 0.0652718
+*CONN
+*P la_data_out[43] O
+*I *267:la_data_out[43] O *D user_proj_example
+*CAP
+1 la_data_out[43] 0.00373218
+2 *267:la_data_out[43] 0.00514715
+3 *194:17 0.00887933
+4 la_data_out[43] la_data_out[44] 0.0112265
+5 la_data_out[43] la_data_out[49] 0.00158618
+6 la_data_out[43] *203:25 0
+7 *194:17 *199:17 0.00308488
+8 *194:17 *202:17 2.35179e-05
+9 *194:17 *203:17 0.00147399
+10 la_data_out[34] *194:17 0
+11 la_data_out[41] la_data_out[43] 0.010561
+12 la_data_out[42] la_data_out[43] 0.0012494
+13 *191:17 *194:17 0.00598331
+14 *192:17 *194:17 0.011334
+15 *193:17 *194:17 0.000990447
+*RES
+1 *267:la_data_out[43] *194:17 46.4325 
+2 *194:17 la_data_out[43] 31.3586 
+*END
+
+*D_NET *195 0.0631802
+*CONN
+*P la_data_out[44] O
+*I *267:la_data_out[44] O *D user_proj_example
+*CAP
+1 la_data_out[44] 0.0038349
+2 *267:la_data_out[44] 0.00420055
+3 *195:17 0.00803545
+4 la_data_out[44] la_data_out[49] 0.000545824
+5 *195:17 la_data_out[45] 0.00523712
+6 *195:17 *196:13 0.00268632
+7 *195:17 *197:17 0.00245417
+8 *195:17 *198:17 0.00276163
+9 *195:17 *200:17 0.00739934
+10 *195:17 *205:17 0.000183038
+11 la_data_out[26] *195:17 0.00101369
+12 la_data_out[42] la_data_out[44] 0.00979845
+13 la_data_out[43] la_data_out[44] 0.0112265
+14 *193:17 *195:17 0.00380328
+*RES
+1 *267:la_data_out[44] *195:17 41.58 
+2 *195:17 la_data_out[44] 30.7033 
+*END
+
+*D_NET *196 0.0698185
+*CONN
+*P la_data_out[45] O
+*I *267:la_data_out[45] O *D user_proj_example
+*CAP
+1 la_data_out[45] 0.00571612
+2 *267:la_data_out[45] 0.00101821
+3 *196:13 0.00673433
+4 la_data_out[45] la_data_out[46] 0.0250674
+5 la_data_out[45] *198:17 0.00275675
+6 la_data_out[45] *203:19 0.000626833
+7 la_data_out[45] *205:17 0.0102843
+8 la_data_out[45] *206:17 0.00256601
+9 la_data_out[26] *196:13 0.000591141
+10 la_data_out[36] la_data_out[45] 0.000752025
+11 la_data_out[39] la_data_out[45] 3.98513e-06
+12 *178:27 la_data_out[45] 0.00041502
+13 *178:27 *196:13 0.00118627
+14 *180:29 la_data_out[45] 0.00101723
+15 *183:25 la_data_out[45] 0.000849512
+16 *187:27 la_data_out[45] 0.0021969
+17 *189:17 *196:13 0.000113035
+18 *195:17 la_data_out[45] 0.00523712
+19 *195:17 *196:13 0.00268632
+*RES
+1 *267:la_data_out[45] *196:13 11.6134 
+2 *196:13 la_data_out[45] 44.2044 
+*END
+
+*D_NET *197 0.0688564
+*CONN
+*P la_data_out[46] O
+*I *267:la_data_out[46] O *D user_proj_example
+*CAP
+1 la_data_out[46] 0.00480146
+2 *267:la_data_out[46] 0.00106603
+3 *197:17 0.00586749
+4 la_data_out[46] la_data_out[47] 0.0243473
+5 la_data_out[46] *206:17 0.000641172
+6 la_data_out[46] *215:21 0.000188416
+7 la_data_out[27] *197:17 0
+8 la_data_out[39] la_data_out[46] 0.000933049
+9 la_data_out[45] la_data_out[46] 0.0250674
+10 *183:27 la_data_out[46] 0.00103085
+11 *193:17 *197:17 0.00245906
+12 *195:17 *197:17 0.00245417
+*RES
+1 *267:la_data_out[46] *197:17 15.2755 
+2 *197:17 la_data_out[46] 44.6853 
+*END
+
+*D_NET *198 0.066327
+*CONN
+*P la_data_out[47] O
+*I *267:la_data_out[47] O *D user_proj_example
+*CAP
+1 la_data_out[47] 0.0046035
+2 *267:la_data_out[47] 0.00109123
+3 *198:17 0.00569473
+4 la_data_out[47] la_data_out[48] 0.0214726
+5 la_data_out[47] *206:17 0.000114642
+6 la_data_out[47] *210:21 1.49759e-06
+7 la_data_out[47] *213:17 0.00025801
+8 la_data_out[47] *216:17 0
+9 la_data_out[28] *198:17 0
+10 la_data_out[30] *198:17 2.46262e-05
+11 la_data_out[39] la_data_out[47] 0.00251053
+12 la_data_out[45] *198:17 0.00275675
+13 la_data_out[46] la_data_out[47] 0.0243473
+14 *178:27 *198:17 0.000589956
+15 *187:23 *198:17 0.000100037
+16 *195:17 *198:17 0.00276163
+*RES
+1 *267:la_data_out[47] *198:17 15.2467 
+2 *198:17 la_data_out[47] 44.03 
+*END
+
+*D_NET *199 0.0565299
+*CONN
+*P la_data_out[48] O
+*I *267:la_data_out[48] O *D user_proj_example
+*CAP
+1 la_data_out[48] 0.00659422
+2 *267:la_data_out[48] 0.00207731
+3 *199:17 0.00867153
+4 la_data_out[48] la_data_out[49] 0
+5 la_data_out[48] *213:17 0
+6 la_data_out[48] *216:17 0.000295116
+7 *199:17 *202:17 0.00174696
+8 *199:17 *203:17 0.000145496
+9 la_data_out[39] la_data_out[48] 0.00938332
+10 la_data_out[40] la_data_out[48] 0.000863356
+11 la_data_out[41] la_data_out[48] 0
+12 la_data_out[47] la_data_out[48] 0.0214726
+13 *186:25 *199:17 0.000123182
+14 *193:17 *199:17 0.002072
+15 *194:17 *199:17 0.00308488
+*RES
+1 *267:la_data_out[48] *199:17 24.7023 
+2 *199:17 la_data_out[48] 40.2865 
+*END
+
+*D_NET *200 0.0603128
+*CONN
+*P la_data_out[49] O
+*I *267:la_data_out[49] O *D user_proj_example
+*CAP
+1 la_data_out[49] 0.00706082
+2 *267:la_data_out[49] 0.00351109
+3 *200:17 0.0105719
+4 la_data_out[49] *202:27 0.00271789
+5 la_data_out[49] *203:27 0.00368409
+6 *200:17 *202:17 0.00157582
+7 *200:17 *204:17 0.01057
+8 *200:17 *205:17 0.000932778
+9 *200:17 *206:17 0.00692721
+10 *200:17 *210:21 0
+11 la_data_out[41] *200:17 0.00056753
+12 la_data_out[43] la_data_out[49] 0.00158618
+13 la_data_out[44] la_data_out[49] 0.000545824
+14 la_data_out[48] la_data_out[49] 0
+15 *192:17 *200:17 0
+16 *193:17 *200:17 0.00266233
+17 *195:17 *200:17 0.00739934
+*RES
+1 *267:la_data_out[49] *200:17 40.9443 
+2 *200:17 la_data_out[49] 27.6584 
+*END
+
+*D_NET *201 0.0878277
+*CONN
+*P la_data_out[4] O
+*I *267:la_data_out[4] O *D user_proj_example
+*CAP
+1 la_data_out[4] 0.00010066
+2 *267:la_data_out[4] 0.000602659
+3 *201:19 0.00300574
+4 *201:17 0.00302752
+5 *201:13 0.00553727
+6 *201:9 0.00601748
+7 *201:13 *212:11 0.0020513
+8 *201:13 *234:13 0.0268745
+9 *201:19 la_data_out[5] 0
+10 *201:19 *234:19 0.00318034
+11 *201:19 *245:11 0.00204985
+12 *167:17 *201:13 6.08626e-05
+13 *168:19 *201:19 0.00443269
+14 *169:17 *201:13 0.000563298
+15 *170:17 *201:13 0.000846577
+16 *179:13 *201:13 0.0287323
+17 *179:19 *201:19 0.000744735
+*RES
+1 *267:la_data_out[4] *201:9 11.045 
+2 *201:9 *201:13 48.2584 
+3 *201:13 *201:17 3.7625 
+4 *201:17 *201:19 80.145 
+5 *201:19 la_data_out[4] 2.975 
+*END
+
+*D_NET *202 0.0563536
+*CONN
+*P la_data_out[50] O
+*I *267:la_data_out[50] O *D user_proj_example
+*CAP
+1 la_data_out[50] 0.000589795
+2 *267:la_data_out[50] 0.002935
+3 *202:27 0.00473159
+4 *202:25 0.00542625
+5 *202:17 0.00421945
+6 *202:17 *203:17 0.00419647
+7 *202:17 *204:17 0.00897319
+8 *202:17 *207:17 0.0035289
+9 *202:25 *203:19 0.0030136
+10 *202:25 *206:17 0.00121687
+11 *202:27 *203:27 0.00989996
+12 la_data_out[40] *202:17 0.000166107
+13 la_data_out[42] *202:25 0.000523988
+14 la_data_out[49] *202:27 0.00271789
+15 *193:17 *202:17 0.000868247
+16 *194:17 *202:17 2.35179e-05
+17 *199:17 *202:17 0.00174696
+18 *200:17 *202:17 0.00157582
+*RES
+1 *267:la_data_out[50] *202:17 33.6776 
+2 *202:17 *202:25 37.585 
+3 *202:25 *202:27 106.365 
+4 *202:27 la_data_out[50] 11.615 
+*END
+
+*D_NET *203 0.0495547
+*CONN
+*P la_data_out[51] O
+*I *267:la_data_out[51] O *D user_proj_example
+*CAP
+1 la_data_out[51] 0.000543356
+2 *267:la_data_out[51] 0.00369278
+3 *203:27 0.00458169
+4 *203:25 0.0043925
+5 *203:19 0.00341788
+6 *203:17 0.00675649
+7 la_data_out[51] *213:17 7.11598e-05
+8 la_data_out[51] *219:17 0
+9 *203:17 *207:17 0.00134077
+10 *203:19 *205:17 0.00138025
+11 la_data_out[33] *203:17 0
+12 la_data_out[43] *203:25 0
+13 la_data_out[45] *203:19 0.000626833
+14 la_data_out[49] *203:27 0.00368409
+15 *186:25 *203:17 0.000337327
+16 *194:17 *203:17 0.00147399
+17 *199:17 *203:17 0.000145496
+18 *202:17 *203:17 0.00419647
+19 *202:25 *203:19 0.0030136
+20 *202:27 *203:27 0.00989996
+*RES
+1 *267:la_data_out[51] *203:17 30.0294 
+2 *203:17 *203:19 61.86 
+3 *203:19 *203:25 9.715 
+4 *203:25 *203:27 104.64 
+5 *203:27 la_data_out[51] 11.36 
+*END
+
+*D_NET *204 0.0553992
+*CONN
+*P la_data_out[52] O
+*I *267:la_data_out[52] O *D user_proj_example
+*CAP
+1 la_data_out[52] 0.000144505
+2 *267:la_data_out[52] 0.00302377
+3 *204:19 0.0028638
+4 *204:17 0.00574306
+5 *204:17 *206:17 0.00212059
+6 *204:17 *207:17 4.13893e-05
+7 *204:17 *209:17 0.00529645
+8 *204:17 *213:17 6.32125e-05
+9 *204:19 *205:19 0.00456727
+10 *204:19 *206:19 0.00205124
+11 *204:19 *207:19 0.000367092
+12 *204:19 *208:17 0.000282572
+13 *204:19 *209:19 0.0050825
+14 *204:19 *211:17 0.00128045
+15 *204:19 *213:19 0.0016545
+16 *204:19 *215:21 0.00104523
+17 la_data_out[34] *204:17 0.000228397
+18 *200:17 *204:17 0.01057
+19 *202:17 *204:17 0.00897319
+*RES
+1 *267:la_data_out[52] *204:17 36.1028 
+2 *204:17 *204:19 113.265 
+3 *204:19 la_data_out[52] 2.975 
+*END
+
+*D_NET *205 0.0552481
+*CONN
+*P la_data_out[53] O
+*I *267:la_data_out[53] O *D user_proj_example
+*CAP
+1 la_data_out[53] 0.00017201
+2 *267:la_data_out[53] 0.00254074
+3 *205:19 0.00457455
+4 *205:17 0.00694329
+5 *205:17 *206:17 0.00848417
+6 *205:19 *208:17 0.000101392
+7 *205:19 *210:23 0.00859993
+8 *205:19 *211:17 0.0018392
+9 *205:19 *213:19 0.00174262
+10 *205:19 *215:21 0.00161064
+11 la_data_out[35] *205:17 0
+12 la_data_out[42] *205:17 0.000185743
+13 la_data_out[45] *205:17 0.0102843
+14 *187:27 *205:17 0.0011062
+15 *195:17 *205:17 0.000183038
+16 *200:17 *205:17 0.000932778
+17 *203:19 *205:17 0.00138025
+18 *204:19 *205:19 0.00456727
+*RES
+1 *267:la_data_out[53] *205:17 30.8664 
+2 *205:17 *205:19 144.315 
+3 *205:19 la_data_out[53] 3.665 
+*END
+
+*D_NET *206 0.0567558
+*CONN
+*P la_data_out[54] O
+*I *267:la_data_out[54] O *D user_proj_example
+*CAP
+1 la_data_out[54] 0.000283482
+2 *267:la_data_out[54] 0.0035258
+3 *206:19 0.00208875
+4 *206:17 0.00533107
+5 *206:17 *213:17 0.00420512
+6 *206:19 *207:19 0.00191401
+7 *206:19 *208:19 0.00220811
+8 *206:19 *209:19 0.00773664
+9 *206:19 *211:19 0.0028659
+10 *206:19 *215:21 0.00247501
+11 la_data_out[45] *206:17 0.00256601
+12 la_data_out[46] *206:17 0.000641172
+13 la_data_out[47] *206:17 0.000114642
+14 *200:17 *206:17 0.00692721
+15 *202:25 *206:17 0.00121687
+16 *204:17 *206:17 0.00212059
+17 *204:19 *206:19 0.00205124
+18 *205:17 *206:17 0.00848417
+*RES
+1 *267:la_data_out[54] *206:17 36.3503 
+2 *206:17 *206:19 101.19 
+3 *206:19 la_data_out[54] 4.265 
+*END
+
+*D_NET *207 0.0470348
+*CONN
+*P la_data_out[55] O
+*I *267:la_data_out[55] O *D user_proj_example
+*CAP
+1 la_data_out[55] 8.91822e-05
+2 *267:la_data_out[55] 0.00265385
+3 *207:19 0.00584054
+4 *207:17 0.00840521
+5 la_data_out[55] *218:17 0
+6 *207:17 *208:17 0.00146124
+7 *207:17 *209:17 0.00653071
+8 *207:17 *210:21 0.00353453
+9 *207:19 *208:19 0.00824861
+10 *207:19 *209:17 0.000119831
+11 *207:19 *214:17 0.00231525
+12 *207:19 *221:17 0.000643708
+13 *202:17 *207:17 0.0035289
+14 *203:17 *207:17 0.00134077
+15 *204:17 *207:17 4.13893e-05
+16 *204:19 *207:19 0.000367092
+17 *206:19 *207:19 0.00191401
+*RES
+1 *267:la_data_out[55] *207:17 28.8483 
+2 *207:17 *207:19 141.9 
+3 *207:19 la_data_out[55] 3.2 
+*END
+
+*D_NET *208 0.0552231
+*CONN
+*P la_data_out[56] O
+*I *267:la_data_out[56] O *D user_proj_example
+*CAP
+1 la_data_out[56] 7.05635e-05
+2 *267:la_data_out[56] 0.00474298
+3 *208:19 0.00166919
+4 *208:17 0.00634161
+5 *208:17 *210:21 0.00817296
+6 *208:17 *211:17 0.0106957
+7 *208:17 *215:21 0.00305342
+8 *208:19 *211:19 0.00599915
+9 *208:19 *217:17 0.00217564
+10 la_data_out[39] *208:17 0
+11 *204:19 *208:17 0.000282572
+12 *205:19 *208:17 0.000101392
+13 *206:19 *208:19 0.00220811
+14 *207:17 *208:17 0.00146124
+15 *207:19 *208:19 0.00824861
+*RES
+1 *267:la_data_out[56] *208:17 40.335 
+2 *208:17 *208:19 87.735 
+3 *208:19 la_data_out[56] 2.945 
+*END
+
+*D_NET *209 0.057072
+*CONN
+*P la_data_out[57] O
+*I *267:la_data_out[57] O *D user_proj_example
+*CAP
+1 la_data_out[57] 0.000211989
+2 *267:la_data_out[57] 0.00294805
+3 *209:19 0.00188812
+4 *209:17 0.00462418
+5 *209:17 *210:21 0.000232903
+6 *209:17 *213:17 0.00443199
+7 *209:17 *214:17 0.00590585
+8 *209:19 *211:19 0.00253954
+9 *209:19 *213:19 0.000744735
+10 *209:19 *214:19 0.00588847
+11 *209:19 *215:21 0.00158853
+12 *209:19 *217:17 0.000875754
+13 *209:19 *217:19 0.000201503
+14 la_data_out[40] *209:17 0.000224284
+15 *204:17 *209:17 0.00529645
+16 *204:19 *209:19 0.0050825
+17 *206:19 *209:19 0.00773664
+18 *207:17 *209:17 0.00653071
+19 *207:19 *209:17 0.000119831
+*RES
+1 *267:la_data_out[57] *209:17 33.8085 
+2 *209:17 *209:19 110.505 
+3 *209:19 la_data_out[57] 3.665 
+*END
+
+*D_NET *210 0.0512555
+*CONN
+*P la_data_out[58] O
+*I *267:la_data_out[58] O *D user_proj_example
+*CAP
+1 la_data_out[58] 0.000109135
+2 *267:la_data_out[58] 0.00233203
+3 *210:23 0.00538823
+4 *210:21 0.00761113
+5 *210:21 *214:17 0.00110991
+6 *210:21 *215:21 0.00170192
+7 *210:23 *211:17 0.00315749
+8 *210:23 *213:19 0.000942299
+9 *210:23 *215:21 0.00135128
+10 *210:23 *215:23 0.000713906
+11 *210:23 *218:19 0.00397937
+12 *210:23 *222:17 0.00231694
+13 la_data_out[41] *210:21 0
+14 la_data_out[47] *210:21 1.49759e-06
+15 *200:17 *210:21 0
+16 *205:19 *210:23 0.00859993
+17 *207:17 *210:21 0.00353453
+18 *208:17 *210:21 0.00817296
+19 *209:17 *210:21 0.000232903
+*RES
+1 *267:la_data_out[58] *210:21 28.3309 
+2 *210:21 *210:23 144.66 
+3 *210:23 la_data_out[58] 2.975 
+*END
+
+*D_NET *211 0.0545552
+*CONN
+*P la_data_out[59] O
+*I *267:la_data_out[59] O *D user_proj_example
+*CAP
+1 la_data_out[59] 0.000168655
+2 *267:la_data_out[59] 0.00606326
+3 *211:19 0.00207141
+4 *211:17 0.00796602
+5 *211:17 *215:21 0.00223283
+6 *211:19 *216:19 0.00218186
+7 *211:19 *217:17 0.00121678
+8 *211:19 *217:19 0.00336227
+9 *211:19 *221:17 0.000219474
+10 *211:19 *225:17 0.000374128
+11 *211:19 *226:17 0.000321094
+12 *204:19 *211:17 0.00128045
+13 *205:19 *211:17 0.0018392
+14 *206:19 *211:19 0.0028659
+15 *208:17 *211:17 0.0106957
+16 *208:19 *211:19 0.00599915
+17 *209:19 *211:19 0.00253954
+18 *210:23 *211:17 0.00315749
+*RES
+1 *267:la_data_out[59] *211:17 38.1376 
+2 *211:17 *211:19 94.98 
+3 *211:19 la_data_out[59] 3.485 
+*END
+
+*D_NET *212 0.0896765
+*CONN
+*P la_data_out[5] O
+*I *267:la_data_out[5] O *D user_proj_example
+*CAP
+1 la_data_out[5] 0.000990068
+2 *267:la_data_out[5] 0.000682372
+3 *212:11 0.00751446
+4 *212:9 0.00720677
+5 la_data_out[5] *234:19 0
+6 *212:11 *223:11 0.0359964
+7 *212:11 *234:13 0.0327072
+8 *212:11 *245:11 0.000892583
+9 *171:21 la_data_out[5] 0.000103519
+10 *171:21 *212:11 0.00127984
+11 *176:17 la_data_out[5] 0.000252022
+12 *201:13 *212:11 0.0020513
+13 *201:19 la_data_out[5] 0
+*RES
+1 *267:la_data_out[5] *212:9 12.065 
+2 *212:9 *212:11 58.1881 
+3 *212:11 la_data_out[5] 21.3825 
+*END
+
+*D_NET *213 0.0526623
+*CONN
+*P la_data_out[60] O
+*I *267:la_data_out[60] O *D user_proj_example
+*CAP
+1 la_data_out[60] 0.000180779
+2 *267:la_data_out[60] 0.00299116
+3 *213:19 0.00199765
+4 *213:17 0.00480803
+5 *213:17 *214:17 0.00135544
+6 *213:17 *216:17 0.00567069
+7 *213:17 *219:17 0.000262921
+8 *213:19 *214:19 0.0103086
+9 *213:19 *215:21 0.00115558
+10 *213:19 *215:23 0.00806013
+11 *213:19 *222:17 0.00175762
+12 la_data_out[47] *213:17 0.00025801
+13 la_data_out[48] *213:17 0
+14 la_data_out[51] *213:17 7.11598e-05
+15 *204:17 *213:17 6.32125e-05
+16 *204:19 *213:19 0.0016545
+17 *205:19 *213:19 0.00174262
+18 *206:17 *213:17 0.00420512
+19 *209:17 *213:17 0.00443199
+20 *209:19 *213:19 0.000744735
+21 *210:23 *213:19 0.000942299
+*RES
+1 *267:la_data_out[60] *213:17 30.7198 
+2 *213:17 *213:19 119.475 
+3 *213:19 la_data_out[60] 3.665 
+*END
+
+*D_NET *214 0.0563242
+*CONN
+*P la_data_out[61] O
+*I *267:la_data_out[61] O *D user_proj_example
+*CAP
+1 la_data_out[61] 0.000206635
+2 *267:la_data_out[61] 0.00308213
+3 *214:19 0.00180577
+4 *214:17 0.00468126
+5 *214:17 *215:21 0.00332115
+6 *214:17 *217:17 0.00686149
+7 *214:17 *219:17 0.00189658
+8 *214:19 *215:21 0.00046475
+9 *214:19 *215:23 0.00086689
+10 *214:19 *217:19 0.00279501
+11 *214:19 *219:19 0.00119108
+12 *214:19 *222:17 0.00226789
+13 *207:19 *214:17 0.00231525
+14 *209:17 *214:17 0.00590585
+15 *209:19 *214:19 0.00588847
+16 *210:21 *214:17 0.00110991
+17 *213:17 *214:17 0.00135544
+18 *213:19 *214:19 0.0103086
+*RES
+1 *267:la_data_out[61] *214:17 32.2128 
+2 *214:17 *214:19 106.365 
+3 *214:19 la_data_out[61] 3.665 
+*END
+
+*D_NET *215 0.0639599
+*CONN
+*P la_data_out[62] O
+*I *267:la_data_out[62] O *D user_proj_example
+*CAP
+1 la_data_out[62] 0.000120205
+2 *267:la_data_out[62] 0.0038231
+3 *215:23 0.00156576
+4 *215:21 0.00526865
+5 *215:21 *217:17 0.00919093
+6 *215:21 *222:17 0.000152972
+7 *215:23 *218:19 0.0100403
+8 *215:23 *219:19 0.000108357
+9 *215:23 *222:17 0.00176314
+10 *215:23 *222:19 0.00145763
+11 *215:23 *225:17 0.00063921
+12 la_data_out[46] *215:21 0.000188416
+13 *204:19 *215:21 0.00104523
+14 *205:19 *215:21 0.00161064
+15 *206:19 *215:21 0.00247501
+16 *208:17 *215:21 0.00305342
+17 *209:19 *215:21 0.00158853
+18 *210:21 *215:21 0.00170192
+19 *210:23 *215:21 0.00135128
+20 *210:23 *215:23 0.000713906
+21 *211:17 *215:21 0.00223283
+22 *213:19 *215:21 0.00115558
+23 *213:19 *215:23 0.00806013
+24 *214:17 *215:21 0.00332115
+25 *214:19 *215:21 0.00046475
+26 *214:19 *215:23 0.00086689
+*RES
+1 *267:la_data_out[62] *215:21 33.3608 
+2 *215:21 *215:23 101.535 
+3 *215:23 la_data_out[62] 2.975 
+*END
+
+*D_NET *216 0.0477837
+*CONN
+*P la_data_out[63] O
+*I *267:la_data_out[63] O *D user_proj_example
+*CAP
+1 la_data_out[63] 7.56293e-05
+2 *267:la_data_out[63] 0.00375767
+3 *216:19 0.00283495
+4 *216:17 0.00651699
+5 *216:17 *218:17 0.00862228
+6 *216:17 *219:17 0.000920367
+7 *216:17 *220:17 0.00851922
+8 *216:17 *224:17 0.00307434
+9 *216:19 *217:19 0.00345186
+10 *216:19 *225:17 0.00010189
+11 *216:19 *226:17 0.00176081
+12 la_data_out[47] *216:17 0
+13 la_data_out[48] *216:17 0.000295116
+14 *211:19 *216:19 0.00218186
+15 *213:17 *216:17 0.00567069
+*RES
+1 *267:la_data_out[63] *216:17 37.1222 
+2 *216:17 *216:19 72.21 
+3 *216:19 la_data_out[63] 2.945 
+*END
+
+*D_NET *217 0.0538331
+*CONN
+*P la_data_out[64] O
+*I *267:la_data_out[64] O *D user_proj_example
+*CAP
+1 la_data_out[64] 0.000251557
+2 *267:la_data_out[64] 0.00300263
+3 *217:19 0.00210615
+4 *217:17 0.00485722
+5 *217:17 *219:17 0.00016243
+6 *217:17 *221:17 0.00318558
+7 *217:17 *222:17 0.00203692
+8 *217:17 *225:17 8.208e-05
+9 *217:19 *219:19 0.00560195
+10 *217:19 *225:17 0.00241536
+11 *208:19 *217:17 0.00217564
+12 *209:19 *217:17 0.000875754
+13 *209:19 *217:19 0.000201503
+14 *211:19 *217:17 0.00121678
+15 *211:19 *217:19 0.00336227
+16 *214:17 *217:17 0.00686149
+17 *214:19 *217:19 0.00279501
+18 *215:21 *217:17 0.00919093
+19 *216:19 *217:19 0.00345186
+*RES
+1 *267:la_data_out[64] *217:17 33.1456 
+2 *217:17 *217:19 94.98 
+3 *217:19 la_data_out[64] 4.385 
+*END
+
+*D_NET *218 0.0502419
+*CONN
+*P la_data_out[65] O
+*I *267:la_data_out[65] O *D user_proj_example
+*CAP
+1 la_data_out[65] 8.79546e-05
+2 *267:la_data_out[65] 0.00380454
+3 *218:19 0.00218808
+4 *218:17 0.00590467
+5 *218:19 *220:19 0.00882342
+6 *218:19 *222:17 0.00241702
+7 *218:19 *222:19 0.00151745
+8 *218:19 *225:17 0.00116151
+9 *218:19 *226:19 0.00169536
+10 la_data_out[55] *218:17 0
+11 *210:23 *218:19 0.00397937
+12 *215:23 *218:19 0.0100403
+13 *216:17 *218:17 0.00862228
+*RES
+1 *267:la_data_out[65] *218:17 28.3026 
+2 *218:17 *218:19 129.135 
+3 *218:19 la_data_out[65] 2.975 
+*END
+
+*D_NET *219 0.0508189
+*CONN
+*P la_data_out[66] O
+*I *267:la_data_out[66] O *D user_proj_example
+*CAP
+1 la_data_out[66] 0.000127457
+2 *267:la_data_out[66] 0.00292511
+3 *219:19 0.00193531
+4 *219:17 0.00473296
+5 la_data_out[66] *224:17 2.97004e-06
+6 *219:17 *220:17 0.0106051
+7 *219:17 *221:17 0.0105252
+8 *219:17 *224:17 9.26353e-05
+9 *219:17 *227:17 0.00151393
+10 *219:17 *228:17 0
+11 *219:19 *221:19 0.00516702
+12 *219:19 *222:19 0.0012896
+13 *219:19 *225:17 0.00154632
+14 *219:19 *228:17 0.000211635
+15 la_data_out[51] *219:17 0
+16 *213:17 *219:17 0.000262921
+17 *214:17 *219:17 0.00189658
+18 *214:19 *219:19 0.00119108
+19 *215:23 *219:19 0.000108357
+20 *216:17 *219:17 0.000920367
+21 *217:17 *219:17 0.00016243
+22 *217:19 *219:19 0.00560195
+*RES
+1 *267:la_data_out[66] *219:17 35.4982 
+2 *219:17 *219:19 79.455 
+3 *219:19 la_data_out[66] 2.975 
+*END
+
+*D_NET *220 0.0496381
+*CONN
+*P la_data_out[67] O
+*I *267:la_data_out[67] O *D user_proj_example
+*CAP
+1 la_data_out[67] 0.000135236
+2 *267:la_data_out[67] 0.00242857
+3 *220:19 0.00399369
+4 *220:17 0.00628702
+5 *220:17 *224:17 0.00120278
+6 *220:19 *222:17 0.00139159
+7 *220:19 *225:17 0.00219433
+8 *220:19 *225:19 0.00253172
+9 *220:19 *226:19 0.000338429
+10 *220:19 *232:17 0.00118705
+11 *216:17 *220:17 0.00851922
+12 *218:19 *220:19 0.00882342
+13 *219:17 *220:17 0.0106051
+*RES
+1 *267:la_data_out[67] *220:17 31.5292 
+2 *220:17 *220:19 107.745 
+3 *220:19 la_data_out[67] 2.975 
+*END
+
+*D_NET *221 0.0498324
+*CONN
+*P la_data_out[68] O
+*I *267:la_data_out[68] O *D user_proj_example
+*CAP
+1 la_data_out[68] 0.000187621
+2 *267:la_data_out[68] 0.00339652
+3 *221:19 0.00118214
+4 *221:17 0.00439103
+5 *221:17 *225:17 0.000721884
+6 *221:17 *226:17 0.00202377
+7 *221:17 *227:17 0.00111689
+8 *221:17 *228:17 0.00345058
+9 *221:17 *229:17 0.00173384
+10 *221:17 *230:17 4.55864e-06
+11 *221:19 *222:19 0.0078705
+12 *221:19 *224:19 0.00259688
+13 *221:19 *225:17 0.000811196
+14 *221:19 *232:17 0.000216765
+15 *221:19 *233:17 0.000387228
+16 *207:19 *221:17 0.000643708
+17 *211:19 *221:17 0.000219474
+18 *217:17 *221:17 0.00318558
+19 *219:17 *221:17 0.0105252
+20 *219:19 *221:19 0.00516702
+*RES
+1 *267:la_data_out[68] *221:17 35.928 
+2 *221:17 *221:19 71.175 
+3 *221:19 la_data_out[68] 3.665 
+*END
+
+*D_NET *222 0.056515
+*CONN
+*P la_data_out[69] O
+*I *267:la_data_out[69] O *D user_proj_example
+*CAP
+1 la_data_out[69] 0.000208803
+2 *267:la_data_out[69] 0.00459341
+3 *222:19 0.00175962
+4 *222:17 0.00614423
+5 *222:17 *225:17 0.00657156
+6 *222:19 *224:19 0.000499634
+7 *222:19 *225:17 0.000891026
+8 *222:19 *226:17 0.000441709
+9 *222:19 *226:19 0.00749725
+10 *222:19 *227:19 0.000622848
+11 *222:19 *232:17 0.000307599
+12 *222:19 *233:17 0.000422465
+13 *222:19 *235:17 0.000315583
+14 *210:23 *222:17 0.00231694
+15 *213:19 *222:17 0.00175762
+16 *214:19 *222:17 0.00226789
+17 *215:21 *222:17 0.000152972
+18 *215:23 *222:17 0.00176314
+19 *215:23 *222:19 0.00145763
+20 *217:17 *222:17 0.00203692
+21 *218:19 *222:17 0.00241702
+22 *218:19 *222:19 0.00151745
+23 *219:19 *222:19 0.0012896
+24 *220:19 *222:17 0.00139159
+25 *221:19 *222:19 0.0078705
+*RES
+1 *267:la_data_out[69] *222:17 30.4366 
+2 *222:17 *222:19 103.95 
+3 *222:19 la_data_out[69] 3.665 
+*END
+
+*D_NET *223 0.0915495
+*CONN
+*P la_data_out[6] O
+*I *267:la_data_out[6] O *D user_proj_example
+*CAP
+1 la_data_out[6] 0.00167046
+2 *267:la_data_out[6] 0.000719745
+3 *223:11 0.00768692
+4 *223:9 0.00673621
+5 la_data_out[6] *234:19 0.00444526
+6 la_data_out[6] *245:11 0.00163643
+7 *223:11 *245:11 0.032395
+8 *177:21 la_data_out[6] 0.000263049
+9 *212:11 *223:11 0.0359964
+*RES
+1 *267:la_data_out[6] *223:9 12.575 
+2 *223:9 *223:11 53.2937 
+3 *223:11 la_data_out[6] 47.0325 
+*END
+
+*D_NET *224 0.0357219
+*CONN
+*P la_data_out[70] O
+*I *267:la_data_out[70] O *D user_proj_example
+*CAP
+1 la_data_out[70] 0.000127551
+2 *267:la_data_out[70] 0.00675178
+3 *224:19 0.0019966
+4 *224:17 0.00862083
+5 la_data_out[70] *230:17 0
+6 *224:17 *227:17 0.00414072
+7 *224:17 *231:21 0.00345213
+8 *224:17 *233:17 0
+9 *224:19 *227:19 0.00218285
+10 *224:19 *233:17 0.000980184
+11 la_data_out[66] *224:17 2.97004e-06
+12 *216:17 *224:17 0.00307434
+13 *219:17 *224:17 9.26353e-05
+14 *220:17 *224:17 0.00120278
+15 *221:19 *224:19 0.00259688
+16 *222:19 *224:19 0.000499634
+*RES
+1 *267:la_data_out[70] *224:17 38.3533 
+2 *224:17 *224:19 50.82 
+3 *224:19 la_data_out[70] 4.865 
+*END
+
+*D_NET *225 0.0579652
+*CONN
+*P la_data_out[71] O
+*I *267:la_data_out[71] O *D user_proj_example
+*CAP
+1 la_data_out[71] 0.000182728
+2 *267:la_data_out[71] 0.00464762
+3 *225:19 0.00134847
+4 *225:17 0.00581336
+5 *225:17 *226:17 0.00886038
+6 *225:17 *226:19 0.000416645
+7 *225:17 *228:17 0.0013752
+8 *225:17 *232:17 0.000223671
+9 *225:19 *226:19 0.00821423
+10 *225:19 *228:19 0.00486037
+11 *225:19 *232:17 0.00198026
+12 *211:19 *225:17 0.000374128
+13 *215:23 *225:17 0.00063921
+14 *216:19 *225:17 0.00010189
+15 *217:17 *225:17 8.208e-05
+16 *217:19 *225:17 0.00241536
+17 *218:19 *225:17 0.00116151
+18 *219:19 *225:17 0.00154632
+19 *220:19 *225:17 0.00219433
+20 *220:19 *225:19 0.00253172
+21 *221:17 *225:17 0.000721884
+22 *221:19 *225:17 0.000811196
+23 *222:17 *225:17 0.00657156
+24 *222:19 *225:17 0.000891026
+*RES
+1 *267:la_data_out[71] *225:17 34.8868 
+2 *225:17 *225:19 74.28 
+3 *225:19 la_data_out[71] 3.665 
+*END
+
+*D_NET *226 0.0520697
+*CONN
+*P la_data_out[72] O
+*I *267:la_data_out[72] O *D user_proj_example
+*CAP
+1 la_data_out[72] 0.00010898
+2 *267:la_data_out[72] 0.00232641
+3 *226:19 0.00165126
+4 *226:17 0.0038687
+5 *226:17 *228:17 0.00533395
+6 *226:19 *227:19 0.000788738
+7 *226:19 *228:19 0.000912948
+8 *226:19 *230:19 0.00317656
+9 *226:19 *232:17 0.00233245
+10 *211:19 *226:17 0.000321094
+11 *216:19 *226:17 0.00176081
+12 *218:19 *226:19 0.00169536
+13 *220:19 *226:19 0.000338429
+14 *221:17 *226:17 0.00202377
+15 *222:19 *226:17 0.000441709
+16 *222:19 *226:19 0.00749725
+17 *225:17 *226:17 0.00886038
+18 *225:17 *226:19 0.000416645
+19 *225:19 *226:19 0.00821423
+*RES
+1 *267:la_data_out[72] *226:17 28.5138 
+2 *226:17 *226:19 108.435 
+3 *226:19 la_data_out[72] 2.975 
+*END
+
+*D_NET *227 0.0463369
+*CONN
+*P la_data_out[73] O
+*I *267:la_data_out[73] O *D user_proj_example
+*CAP
+1 la_data_out[73] 0.000105533
+2 *267:la_data_out[73] 0.00311792
+3 *227:19 0.00126455
+4 *227:17 0.00427694
+5 *227:17 *229:17 0.0107431
+6 *227:17 *231:21 0.00698609
+7 *227:17 *236:17 0
+8 *227:19 *229:19 0.00310372
+9 *227:19 *230:19 0.00482108
+10 *227:19 *235:17 0.00155199
+11 *219:17 *227:17 0.00151393
+12 *221:17 *227:17 0.00111689
+13 *222:19 *227:19 0.000622848
+14 *224:17 *227:17 0.00414072
+15 *224:19 *227:19 0.00218285
+16 *226:19 *227:19 0.000788738
+*RES
+1 *267:la_data_out[73] *227:17 35.5248 
+2 *227:17 *227:19 61.17 
+3 *227:19 la_data_out[73] 2.975 
+*END
+
+*D_NET *228 0.0444457
+*CONN
+*P la_data_out[74] O
+*I *267:la_data_out[74] O *D user_proj_example
+*CAP
+1 la_data_out[74] 0.000113924
+2 *267:la_data_out[74] 0.00273163
+3 *228:19 0.00321509
+4 *228:17 0.00583279
+5 *228:17 *229:17 3.10119e-05
+6 *228:17 *230:17 0.00763462
+7 *228:17 *232:17 0.000461705
+8 *228:17 *233:17 0.00115209
+9 *228:17 *235:17 0
+10 *228:19 *230:19 7.59904e-05
+11 *228:19 *232:17 0.00345582
+12 *228:19 *233:19 0.00291318
+13 *228:19 *235:17 0.000683187
+14 *219:17 *228:17 0
+15 *219:19 *228:17 0.000211635
+16 *221:17 *228:17 0.00345058
+17 *225:17 *228:17 0.0013752
+18 *225:19 *228:19 0.00486037
+19 *226:17 *228:17 0.00533395
+20 *226:19 *228:19 0.000912948
+*RES
+1 *267:la_data_out[74] *228:17 31.655 
+2 *228:17 *228:19 85.665 
+3 *228:19 la_data_out[74] 2.975 
+*END
+
+*D_NET *229 0.0437644
+*CONN
+*P la_data_out[75] O
+*I *267:la_data_out[75] O *D user_proj_example
+*CAP
+1 la_data_out[75] 0.000211851
+2 *267:la_data_out[75] 0.00288735
+3 *229:19 0.00213405
+4 *229:17 0.00480955
+5 *229:17 *230:17 0.0109525
+6 *229:17 *231:21 0.00216558
+7 *229:17 *236:17 5.45185e-05
+8 *229:17 *237:17 0.0016737
+9 *229:17 *238:17 0
+10 *229:19 *230:19 0.00108812
+11 *229:19 *231:21 0.000852679
+12 *229:19 *233:17 0.000354896
+13 *229:19 *238:17 0.000967968
+14 *221:17 *229:17 0.00173384
+15 *227:17 *229:17 0.0107431
+16 *227:19 *229:19 0.00310372
+17 *228:17 *229:17 3.10119e-05
+*RES
+1 *267:la_data_out[75] *229:17 34.9876 
+2 *229:17 *229:19 52.2 
+3 *229:19 la_data_out[75] 4.01 
+*END
+
+*D_NET *230 0.0458096
+*CONN
+*P la_data_out[76] O
+*I *267:la_data_out[76] O *D user_proj_example
+*CAP
+1 la_data_out[76] 0.000161591
+2 *267:la_data_out[76] 0.00227384
+3 *230:19 0.00152912
+4 *230:17 0.00364137
+5 la_data_out[76] *236:17 7.96104e-06
+6 *230:17 *233:17 0.000695468
+7 *230:17 *236:17 0.00170686
+8 *230:17 *237:17 2.99518e-06
+9 *230:19 la_data_out[77] 0.000156308
+10 *230:19 *231:21 0.00114163
+11 *230:19 *232:19 0.00352428
+12 *230:19 *233:19 0.00126275
+13 *230:19 *235:17 0.00195199
+14 la_data_out[70] *230:17 0
+15 *221:17 *230:17 4.55864e-06
+16 *226:19 *230:19 0.00317656
+17 *227:19 *230:19 0.00482108
+18 *228:17 *230:17 0.00763462
+19 *228:19 *230:19 7.59904e-05
+20 *229:17 *230:17 0.0109525
+21 *229:19 *230:19 0.00108812
+*RES
+1 *267:la_data_out[76] *230:17 30.1954 
+2 *230:17 *230:19 81.18 
+3 *230:19 la_data_out[76] 3.665 
+*END
+
+*D_NET *231 0.035074
+*CONN
+*P la_data_out[77] O
+*I *267:la_data_out[77] O *D user_proj_example
+*CAP
+1 la_data_out[77] 0.00147148
+2 *267:la_data_out[77] 0.00547041
+3 *231:21 0.00694188
+4 la_data_out[77] la_data_out[80] 5.59838e-05
+5 la_data_out[77] *232:19 0
+6 la_data_out[77] *238:17 0.000674373
+7 *231:21 *235:17 0.000199618
+8 *231:21 *237:17 0.00162069
+9 *231:21 *239:17 0.00314141
+10 *231:21 *240:17 0.000743729
+11 *224:17 *231:21 0.00345213
+12 *227:17 *231:21 0.00698609
+13 *229:17 *231:21 0.00216558
+14 *229:19 *231:21 0.000852679
+15 *230:19 la_data_out[77] 0.000156308
+16 *230:19 *231:21 0.00114163
+*RES
+1 *267:la_data_out[77] *231:21 49.6079 
+2 *231:21 la_data_out[77] 28.7525 
+*END
+
+*D_NET *232 0.0473976
+*CONN
+*P la_data_out[78] O
+*I *267:la_data_out[78] O *D user_proj_example
+*CAP
+1 la_data_out[78] 9.87204e-05
+2 *267:la_data_out[78] 0.00558938
+3 *232:19 0.00115677
+4 *232:17 0.00664743
+5 la_data_out[78] la_data_out[89] 6.57653e-06
+6 *232:17 *233:17 0.00102527
+7 *232:17 *235:17 0.00919283
+8 *232:19 la_data_out[80] 0.00195716
+9 *232:19 *233:19 0.00668928
+10 *232:19 *235:17 0.000752062
+11 *232:19 *238:17 0.000592545
+12 la_data_out[77] *232:19 0
+13 *220:19 *232:17 0.00118705
+14 *221:19 *232:17 0.000216765
+15 *222:19 *232:17 0.000307599
+16 *225:17 *232:17 0.000223671
+17 *225:19 *232:17 0.00198026
+18 *226:19 *232:17 0.00233245
+19 *228:17 *232:17 0.000461705
+20 *228:19 *232:17 0.00345582
+21 *230:19 *232:19 0.00352428
+*RES
+1 *267:la_data_out[78] *232:17 34.9889 
+2 *232:17 *232:19 60.48 
+3 *232:19 la_data_out[78] 2.975 
+*END
+
+*D_NET *233 0.0438784
+*CONN
+*P la_data_out[79] O
+*I *267:la_data_out[79] O *D user_proj_example
+*CAP
+1 la_data_out[79] 9.06771e-05
+2 *267:la_data_out[79] 0.00256649
+3 *233:19 0.00191035
+4 *233:17 0.00438616
+5 *233:17 *235:17 0.00699197
+6 *233:17 *236:17 0.00207935
+7 *233:17 *238:17 0.00155388
+8 *233:19 la_data_out[80] 0.000104276
+9 *233:19 la_data_out[89] 0.000250553
+10 *233:19 *235:17 0.00176245
+11 *233:19 *236:19 0.00458591
+12 *233:19 *238:17 0.000560779
+13 *233:19 *238:19 0.00115278
+14 *221:19 *233:17 0.000387228
+15 *222:19 *233:17 0.000422465
+16 *224:17 *233:17 0
+17 *224:19 *233:17 0.000980184
+18 *228:17 *233:17 0.00115209
+19 *228:19 *233:19 0.00291318
+20 *229:19 *233:17 0.000354896
+21 *230:17 *233:17 0.000695468
+22 *230:19 *233:19 0.00126275
+23 *232:17 *233:17 0.00102527
+24 *232:19 *233:19 0.00668928
+*RES
+1 *267:la_data_out[79] *233:17 28.594 
+2 *233:17 *233:19 91.53 
+3 *233:19 la_data_out[79] 2.975 
+*END
+
+*D_NET *234 0.0901945
+*CONN
+*P la_data_out[7] O
+*I *267:la_data_out[7] O *D user_proj_example
+*CAP
+1 la_data_out[7] 0.000210634
+2 *267:la_data_out[7] 0.000637227
+3 *234:30 1.23933e-05
+4 *234:19 0.00209716
+5 *234:17 0.00200841
+6 *234:13 0.0050685
+7 *234:9 0.00559624
+8 *234:19 la_data_out[8] 0.00225778
+9 *234:19 *245:11 0.000997103
+10 la_data_out[5] *234:19 0
+11 la_data_out[6] *234:19 0.00444526
+12 *170:17 *234:13 0.000144147
+13 *171:21 *234:13 0.00314609
+14 *177:21 *234:19 0.000543582
+15 *178:17 *234:19 0.000219672
+16 *179:19 *234:19 4.82863e-05
+17 *201:13 *234:13 0.0268745
+18 *201:19 *234:19 0.00318034
+19 *212:11 *234:13 0.0327072
+*RES
+1 *267:la_data_out[7] *234:9 11.555 
+2 *234:9 *234:13 48.8993 
+3 *234:13 *234:17 3.5075 
+4 *234:17 *234:19 67.035 
+5 *234:19 la_data_out[7] 6.785 
+6 la_data_out[7] *234:30 0.225 
+*END
+
+*D_NET *235 0.0467897
+*CONN
+*P la_data_out[80] O
+*I *267:la_data_out[80] O *D user_proj_example
+*CAP
+1 la_data_out[80] 0.00142408
+2 *267:la_data_out[80] 0.00433037
+3 *235:17 0.00575445
+4 la_data_out[80] la_data_out[82] 0.0013443
+5 la_data_out[80] la_data_out[89] 0.000612221
+6 la_data_out[80] *238:17 0.000331947
+7 la_data_out[80] *238:19 0.00279353
+8 *235:17 *236:19 0.000575269
+9 *235:17 *238:17 0.00410441
+10 la_data_out[77] la_data_out[80] 5.59838e-05
+11 *222:19 *235:17 0.000315583
+12 *227:19 *235:17 0.00155199
+13 *228:17 *235:17 0
+14 *228:19 *235:17 0.000683187
+15 *230:19 *235:17 0.00195199
+16 *231:21 *235:17 0.000199618
+17 *232:17 *235:17 0.00919283
+18 *232:19 la_data_out[80] 0.00195716
+19 *232:19 *235:17 0.000752062
+20 *233:17 *235:17 0.00699197
+21 *233:19 la_data_out[80] 0.000104276
+22 *233:19 *235:17 0.00176245
+*RES
+1 *267:la_data_out[80] *235:17 36.0884 
+2 *235:17 la_data_out[80] 47.585 
+*END
+
+*D_NET *236 0.0402751
+*CONN
+*P la_data_out[81] O
+*I *267:la_data_out[81] O *D user_proj_example
+*CAP
+1 la_data_out[81] 0.000105474
+2 *267:la_data_out[81] 0.00245235
+3 *236:19 0.00264613
+4 *236:17 0.00499301
+5 *236:17 *237:17 0.00910388
+6 *236:17 *238:17 0.0073071
+7 *236:19 la_data_out[89] 0.0019068
+8 *236:19 *238:17 0.000546957
+9 *236:19 *238:19 0.00132047
+10 *236:19 *241:19 0.000883064
+11 la_data_out[76] *236:17 7.96104e-06
+12 *227:17 *236:17 0
+13 *229:17 *236:17 5.45185e-05
+14 *230:17 *236:17 0.00170686
+15 *233:17 *236:17 0.00207935
+16 *233:19 *236:19 0.00458591
+17 *235:17 *236:19 0.000575269
+*RES
+1 *267:la_data_out[81] *236:17 31.9371 
+2 *236:17 *236:19 69.45 
+3 *236:19 la_data_out[81] 2.975 
+*END
+
+*D_NET *237 0.0382
+*CONN
+*P la_data_out[82] O
+*I *267:la_data_out[82] O *D user_proj_example
+*CAP
+1 la_data_out[82] 0.00154531
+2 *267:la_data_out[82] 0.00295615
+3 *237:17 0.00450146
+4 la_data_out[82] la_data_out[85] 0.000273972
+5 la_data_out[82] la_data_out[89] 0.000760347
+6 la_data_out[82] la_data_out[92] 0
+7 la_data_out[82] *238:19 0.00144723
+8 *237:17 *238:17 0.000974199
+9 *237:17 *240:17 0.00867833
+10 *237:17 *243:17 0.00331742
+11 *237:17 *246:17 0
+12 la_data_out[80] la_data_out[82] 0.0013443
+13 *229:17 *237:17 0.0016737
+14 *230:17 *237:17 2.99518e-06
+15 *231:21 *237:17 0.00162069
+16 *236:17 *237:17 0.00910388
+*RES
+1 *267:la_data_out[82] *237:17 35.695 
+2 *237:17 la_data_out[82] 40.34 
+*END
+
+*D_NET *238 0.0417011
+*CONN
+*P la_data_out[83] O
+*I *267:la_data_out[83] O *D user_proj_example
+*CAP
+1 la_data_out[83] 0.000176885
+2 *267:la_data_out[83] 0.00308259
+3 *238:19 0.00115143
+4 *238:17 0.00405713
+5 *238:17 la_data_out[89] 0.000103521
+6 *238:17 *243:17 0.00182676
+7 *238:19 la_data_out[85] 0.00172524
+8 *238:19 la_data_out[89] 0.00165944
+9 *238:19 *241:19 0.00359
+10 la_data_out[77] *238:17 0.000674373
+11 la_data_out[80] *238:17 0.000331947
+12 la_data_out[80] *238:19 0.00279353
+13 la_data_out[82] *238:19 0.00144723
+14 *229:17 *238:17 0
+15 *229:19 *238:17 0.000967968
+16 *232:19 *238:17 0.000592545
+17 *233:17 *238:17 0.00155388
+18 *233:19 *238:17 0.000560779
+19 *233:19 *238:19 0.00115278
+20 *235:17 *238:17 0.00410441
+21 *236:17 *238:17 0.0073071
+22 *236:19 *238:17 0.000546957
+23 *236:19 *238:19 0.00132047
+24 *237:17 *238:17 0.000974199
+*RES
+1 *267:la_data_out[83] *238:17 31.3106 
+2 *238:17 *238:19 62.895 
+3 *238:19 la_data_out[83] 3.665 
+*END
+
+*D_NET *239 0.0302201
+*CONN
+*P la_data_out[84] O
+*I *267:la_data_out[84] O *D user_proj_example
+*CAP
+1 la_data_out[84] 0.000970628
+2 *267:la_data_out[84] 0.00642793
+3 *239:17 0.00739856
+4 la_data_out[84] la_data_out[85] 0
+5 la_data_out[84] *243:17 0.000363346
+6 *239:17 la_data_out[87] 0.0106253
+7 *239:17 *240:17 0.000214777
+8 *239:17 *241:17 0.00107809
+9 *239:17 *249:17 0
+10 *231:21 *239:17 0.00314141
+*RES
+1 *267:la_data_out[84] *239:17 37.3916 
+2 *239:17 la_data_out[84] 18.485 
+*END
+
+*D_NET *240 0.0365992
+*CONN
+*P la_data_out[85] O
+*I *267:la_data_out[85] O *D user_proj_example
+*CAP
+1 la_data_out[85] 0.00171626
+2 *267:la_data_out[85] 0.00280702
+3 *240:17 0.00452329
+4 la_data_out[85] la_data_out[92] 0.00100849
+5 la_data_out[85] *241:19 0.00189934
+6 *240:17 la_data_out[87] 3.02448e-05
+7 *240:17 la_data_out[92] 7.47334e-05
+8 *240:17 *241:17 0.00884488
+9 *240:17 *243:17 0.00221081
+10 *240:17 *247:19 0.00184813
+11 la_data_out[82] la_data_out[85] 0.000273972
+12 la_data_out[84] la_data_out[85] 0
+13 *231:21 *240:17 0.000743729
+14 *237:17 *240:17 0.00867833
+15 *238:19 la_data_out[85] 0.00172524
+16 *239:17 *240:17 0.000214777
+*RES
+1 *267:la_data_out[85] *240:17 33.6776 
+2 *240:17 la_data_out[85] 47.24 
+*END
+
+*D_NET *241 0.0374204
+*CONN
+*P la_data_out[86] O
+*I *267:la_data_out[86] O *D user_proj_example
+*CAP
+1 la_data_out[86] 7.80228e-05
+2 *267:la_data_out[86] 0.00206972
+3 *241:19 0.00240308
+4 *241:17 0.00439477
+5 *241:17 la_data_out[87] 0.00700756
+6 *241:17 *247:19 4.55864e-06
+7 *241:19 la_data_out[89] 0.0028591
+8 *241:19 *243:19 0.00230824
+9 la_data_out[85] *241:19 0.00189934
+10 *236:19 *241:19 0.000883064
+11 *238:19 *241:19 0.00359
+12 *239:17 *241:17 0.00107809
+13 *240:17 *241:17 0.00884488
+*RES
+1 *267:la_data_out[86] *241:17 28.6522 
+2 *241:17 *241:19 73.245 
+3 *241:19 la_data_out[86] 2.975 
+*END
+
+*D_NET *242 0.0383006
+*CONN
+*P la_data_out[87] O
+*I *267:la_data_out[87] O *D user_proj_example
+*CAP
+1 la_data_out[87] 0.00392264
+2 *267:la_data_out[87] 0.00392264
+3 la_data_out[87] la_data_out[94] 0.00353608
+4 la_data_out[87] la_data_out[96] 0
+5 la_data_out[87] *243:19 0
+6 la_data_out[87] *246:17 0.000175147
+7 la_data_out[87] *247:19 0.00908095
+8 *239:17 la_data_out[87] 0.0106253
+9 *240:17 la_data_out[87] 3.02448e-05
+10 *241:17 la_data_out[87] 0.00700756
+*RES
+1 *267:la_data_out[87] la_data_out[87] 47.6548 
+*END
+
+*D_NET *243 0.033943
+*CONN
+*P la_data_out[88] O
+*I *267:la_data_out[88] O *D user_proj_example
+*CAP
+1 la_data_out[88] 9.71149e-05
+2 *267:la_data_out[88] 0.00295364
+3 *243:19 0.00230545
+4 *243:17 0.00516197
+5 *243:17 la_data_out[89] 0.000533658
+6 *243:17 *246:17 0.00769677
+7 *243:17 *247:19 0.000790281
+8 *243:17 *249:17 0.00124229
+9 *243:19 la_data_out[89] 0.00236606
+10 *243:19 la_data_out[90] 0.000769218
+11 la_data_out[84] *243:17 0.000363346
+12 la_data_out[87] *243:19 0
+13 *237:17 *243:17 0.00331742
+14 *238:17 *243:17 0.00182676
+15 *240:17 *243:17 0.00221081
+16 *241:19 *243:19 0.00230824
+*RES
+1 *267:la_data_out[88] *243:17 31.8298 
+2 *243:17 *243:19 48.75 
+3 *243:19 la_data_out[88] 2.975 
+*END
+
+*D_NET *244 0.0388782
+*CONN
+*P la_data_out[89] O
+*I *267:la_data_out[89] O *D user_proj_example
+*CAP
+1 la_data_out[89] 0.00722251
+2 *267:la_data_out[89] 0.00722251
+3 la_data_out[89] la_data_out[90] 0.000811232
+4 la_data_out[89] la_data_out[92] 0.0110173
+5 la_data_out[89] *246:17 0.00154636
+6 la_data_out[78] la_data_out[89] 6.57653e-06
+7 la_data_out[80] la_data_out[89] 0.000612221
+8 la_data_out[82] la_data_out[89] 0.000760347
+9 *233:19 la_data_out[89] 0.000250553
+10 *236:19 la_data_out[89] 0.0019068
+11 *238:17 la_data_out[89] 0.000103521
+12 *238:19 la_data_out[89] 0.00165944
+13 *241:19 la_data_out[89] 0.0028591
+14 *243:17 la_data_out[89] 0.000533658
+15 *243:19 la_data_out[89] 0.00236606
+*RES
+1 *267:la_data_out[89] la_data_out[89] 37.8608 
+*END
+
+*D_NET *245 0.0794415
+*CONN
+*P la_data_out[8] O
+*I *267:la_data_out[8] O *D user_proj_example
+*CAP
+1 la_data_out[8] 0.00174211
+2 *267:la_data_out[8] 0.00074093
+3 *245:11 0.0146971
+4 *245:9 0.0136959
+5 la_data_out[6] *245:11 0.00163643
+6 *168:19 *245:11 0.00235759
+7 *171:21 *245:11 0.000119387
+8 *176:17 *245:11 0.000584324
+9 *177:21 la_data_out[8] 0.000374128
+10 *177:21 *245:11 1.02564e-05
+11 *178:17 la_data_out[8] 0.000857336
+12 *179:19 *245:11 0.00403373
+13 *201:19 *245:11 0.00204985
+14 *212:11 *245:11 0.000892583
+15 *223:11 *245:11 0.032395
+16 *234:19 la_data_out[8] 0.00225778
+17 *234:19 *245:11 0.000997103
+*RES
+1 *267:la_data_out[8] *245:9 13.085 
+2 *245:9 *245:11 53.5851 
+3 *245:11 la_data_out[8] 41.2575 
+*END
+
+*D_NET *246 0.0295688
+*CONN
+*P la_data_out[90] O
+*I *267:la_data_out[90] O *D user_proj_example
+*CAP
+1 la_data_out[90] 0.00177454
+2 *267:la_data_out[90] 0.00321812
+3 *246:17 0.00499266
+4 la_data_out[90] la_data_out[92] 0.000593203
+5 *246:17 la_data_out[92] 0.00507869
+6 *246:17 la_data_out[96] 0.00147926
+7 *246:17 *249:17 0.0014336
+8 la_data_out[87] *246:17 0.000175147
+9 la_data_out[89] la_data_out[90] 0.000811232
+10 la_data_out[89] *246:17 0.00154636
+11 *237:17 *246:17 0
+12 *243:17 *246:17 0.00769677
+13 *243:19 la_data_out[90] 0.000769218
+*RES
+1 *267:la_data_out[90] *246:17 33.036 
+2 *246:17 la_data_out[90] 35.165 
+*END
+
+*D_NET *247 0.0339212
+*CONN
+*P la_data_out[91] O
+*I *267:la_data_out[91] O *D user_proj_example
+*CAP
+1 la_data_out[91] 4.47611e-05
+2 *267:la_data_out[91] 0.00391287
+3 *247:19 0.00395764
+4 la_data_out[91] *249:17 4.41134e-05
+5 *247:19 la_data_out[94] 0.00298853
+6 *247:19 la_data_out[96] 0.00067599
+7 *247:19 *249:17 0.0105734
+8 la_data_out[87] *247:19 0.00908095
+9 *240:17 *247:19 0.00184813
+10 *241:17 *247:19 4.55864e-06
+11 *243:17 *247:19 0.000790281
+*RES
+1 *267:la_data_out[91] *247:19 48.2396 
+2 *247:19 la_data_out[91] 2.945 
+*END
+
+*D_NET *248 0.0332541
+*CONN
+*P la_data_out[92] O
+*I *267:la_data_out[92] O *D user_proj_example
+*CAP
+1 la_data_out[92] 0.00459076
+2 *267:la_data_out[92] 0.00459076
+3 la_data_out[92] la_data_out[93] 0.000697461
+4 la_data_out[92] la_data_out[96] 0.00083521
+5 la_data_out[92] la_data_out[98] 0.00476749
+6 la_data_out[82] la_data_out[92] 0
+7 la_data_out[85] la_data_out[92] 0.00100849
+8 la_data_out[89] la_data_out[92] 0.0110173
+9 la_data_out[90] la_data_out[92] 0.000593203
+10 *240:17 la_data_out[92] 7.47334e-05
+11 *246:17 la_data_out[92] 0.00507869
+*RES
+1 *267:la_data_out[92] la_data_out[92] 36.8708 
+*END
+
+*D_NET *249 0.0308383
+*CONN
+*P la_data_out[93] O
+*I *267:la_data_out[93] O *D user_proj_example
+*CAP
+1 la_data_out[93] 0.00153271
+2 *267:la_data_out[93] 0.00282836
+3 *249:17 0.00436107
+4 la_data_out[93] la_data_out[98] 0.000287656
+5 *249:17 la_data_out[94] 0.000127533
+6 *249:17 la_data_out[96] 0.00101645
+7 *249:17 *253:17 0.00500779
+8 *249:17 *255:17 0.00139411
+9 la_data_out[101] la_data_out[93] 0.000291771
+10 la_data_out[91] *249:17 4.41134e-05
+11 la_data_out[92] la_data_out[93] 0.000697461
+12 *239:17 *249:17 0
+13 *243:17 *249:17 0.00124229
+14 *246:17 *249:17 0.0014336
+15 *247:19 *249:17 0.0105734
+*RES
+1 *267:la_data_out[93] *249:17 33.7214 
+2 *249:17 la_data_out[93] 28.265 
+*END
+
+*D_NET *250 0.023866
+*CONN
+*P la_data_out[94] O
+*I *267:la_data_out[94] O *D user_proj_example
+*CAP
+1 la_data_out[94] 0.0063734
+2 *267:la_data_out[94] 0.0063734
+3 la_data_out[94] *255:17 0.00104282
+4 la_data_out[100] la_data_out[94] 0.00342427
+5 la_data_out[102] la_data_out[94] 0
+6 la_data_out[87] la_data_out[94] 0.00353608
+7 *247:19 la_data_out[94] 0.00298853
+8 *249:17 la_data_out[94] 0.000127533
+*RES
+1 *267:la_data_out[94] la_data_out[94] 43.1913 
+*END
+
+*D_NET *251 0.0197734
+*CONN
+*P la_data_out[95] O
+*I *267:la_data_out[95] O *D user_proj_example
+*CAP
+1 la_data_out[95] 0.00988672
+2 *267:la_data_out[95] 0.00988672
+3 la_data_out[95] *253:17 0
+4 la_data_out[103] la_data_out[95] 0
+*RES
+1 *267:la_data_out[95] la_data_out[95] 33.1114 
+*END
+
+*D_NET *252 0.0295497
+*CONN
+*P la_data_out[96] O
+*I *267:la_data_out[96] O *D user_proj_example
+*CAP
+1 la_data_out[96] 0.00357041
+2 *267:la_data_out[96] 0.00357041
+3 la_data_out[96] la_data_out[98] 0.00521722
+4 la_data_out[96] *253:17 0.0107283
+5 la_data_out[96] *255:17 0.000755935
+6 la_data_out[103] la_data_out[96] 0.00169747
+7 la_data_out[104] la_data_out[96] 2.99518e-06
+8 la_data_out[87] la_data_out[96] 0
+9 la_data_out[92] la_data_out[96] 0.00083521
+10 *246:17 la_data_out[96] 0.00147926
+11 *247:19 la_data_out[96] 0.00067599
+12 *249:17 la_data_out[96] 0.00101645
+*RES
+1 *267:la_data_out[96] la_data_out[96] 33.8063 
+*END
+
+*D_NET *253 0.0289753
+*CONN
+*P la_data_out[97] O
+*I *267:la_data_out[97] O *D user_proj_example
+*CAP
+1 la_data_out[97] 0.0016908
+2 *267:la_data_out[97] 0.00258895
+3 *253:17 0.00427975
+4 *253:17 *255:17 0.00329292
+5 la_data_out[102] la_data_out[97] 0.00133512
+6 la_data_out[103] *253:17 5.16945e-05
+7 la_data_out[95] *253:17 0
+8 la_data_out[96] *253:17 0.0107283
+9 *249:17 *253:17 0.00500779
+*RES
+1 *267:la_data_out[97] *253:17 31.5073 
+2 *253:17 la_data_out[97] 31.025 
+*END
+
+*D_NET *254 0.0293948
+*CONN
+*P la_data_out[98] O
+*I *267:la_data_out[98] O *D user_proj_example
+*CAP
+1 la_data_out[98] 0.00321403
+2 *267:la_data_out[98] 0.00321403
+3 la_data_out[101] la_data_out[98] 0.00812929
+4 la_data_out[103] la_data_out[98] 0.0045651
+5 la_data_out[92] la_data_out[98] 0.00476749
+6 la_data_out[93] la_data_out[98] 0.000287656
+7 la_data_out[96] la_data_out[98] 0.00521722
+*RES
+1 *267:la_data_out[98] la_data_out[98] 33.5058 
+*END
+
+*D_NET *255 0.0256867
+*CONN
+*P la_data_out[99] O
+*I *267:la_data_out[99] O *D user_proj_example
+*CAP
+1 la_data_out[99] 0.00146696
+2 *267:la_data_out[99] 0.0026282
+3 *255:17 0.00409516
+4 la_data_out[100] *255:17 0.00890791
+5 la_data_out[103] la_data_out[99] 0.00123531
+6 la_data_out[103] *255:17 3.04209e-05
+7 la_data_out[104] *255:17 0.000737473
+8 la_data_out[105] *255:17 9.9514e-05
+9 la_data_out[94] *255:17 0.00104282
+10 la_data_out[96] *255:17 0.000755935
+11 *249:17 *255:17 0.00139411
+12 *253:17 *255:17 0.00329292
+*RES
+1 *267:la_data_out[99] *255:17 29.664 
+2 *255:17 la_data_out[99] 26.855 
+*END
+
+*D_NET *256 0.0764162
+*CONN
+*P la_data_out[9] O
+*I *267:la_data_out[9] O *D user_proj_example
+*CAP
+1 la_data_out[9] 0.000720735
+2 *267:la_data_out[9] 0
+3 *256:6 0.012172
+4 *256:4 0.0114512
+5 *1:9 *256:6 0.00789938
+6 *129:6 *256:6 0.0255427
+7 *167:19 *256:6 0.00196071
+8 *169:21 *256:6 0.014296
+9 *174:17 la_data_out[9] 3.26867e-05
+10 *181:23 la_data_out[9] 3.284e-05
+11 *190:6 *256:6 0.00230801
+*RES
+1 *267:la_data_out[9] *256:4 0.5 
+2 *256:4 *256:6 59.2078 
+3 *256:6 la_data_out[9] 11.7125 
+*END
+
+*D_NET *265 0.0105223
+*CONN
+*P wb_clk_i I
+*I *267:wb_clk_i I *D user_proj_example
+*CAP
+1 wb_clk_i 0.00526116
+2 *267:wb_clk_i 0.00526116
+*RES
+1 wb_clk_i *267:wb_clk_i 25.9606 
+*END
